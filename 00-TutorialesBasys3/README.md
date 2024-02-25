@@ -16,7 +16,7 @@ La Basys 3 es una tarjeta de desarrollo FPGA diseñada exclusivamente para ser u
 
 ![imagen de Basys 3](https://i0.wp.com/suconel.com/wp-content/uploads/Basys3.jpg?fit=1000%2C755&ssl=1)
 
-En **TODOS** nuestros proyectos creados en vivado usaremos [ESTE ARCHIVO](https://github.com/Digilent/Basys3/blob/master/Projects/XADC_Demo/src/constraints/Basys3_Master.xdc) para crear el XDC y usar los perifericos/elementos de la basys 3. Tambien lo pueden encontrar descargado en el directorio con el nombre [Basys-3-Master.xdc](https://github.com/AdrianGuerra46/Monitorias_ElectronicaDigital/blob/main/00-TutorialesBasys3/Basys-3-Master.xdc) pueden abrirlo con VS Code o con el bloc de notas predeterminado de tu sistema operativo. Por supuesto todos los créditos para su creador original. 
+En **TODOS** nuestros proyectos creados en vivado usaremos [ESTE ARCHIVO](https://github.com/Digilent/Basys3/blob/master/Projects/XADC_Demo/src/constraints/Basys3_Master.xdc) para crear el XDC y usar los perifericos/elementos de la basys 3 , TODOS los créditos para su autor.
 
 ##### ¿Qué es FPGA?
 
