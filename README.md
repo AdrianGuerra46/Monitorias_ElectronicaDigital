@@ -28,6 +28,8 @@ En la asignatura se usan los siguientes software:
 
 - En el repositorio montaré todo lo que tenga que resolver/desarrollar durante el proceso de la monitoria, es decir, talleres, laboratorios, entre otros. 
 - Habrá un directorio para cada tema o monitoria dada. Estarán enumerados para que sean visualizados en orden cronológico de la asigantura.
+- En cada Directorio estará el enunciado del tema (ya sea quiz o laboratorio) el cual es otorgado por el docente, y ficheros y/o directorios con mis soluciones.
+
 
 
 
