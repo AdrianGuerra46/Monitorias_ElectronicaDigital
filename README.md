@@ -21,8 +21,8 @@ Mi responsabilidad directa será dar asesoria a los estudiantes en los exámenes
 
 En la asignatura se usan los siguientes software: 
 
-- Vidado: Para el trabajo con la basys 3 y vhdl. 
-- Visual Studio Code: Para la programación de microcontroladores    
+- Vidado: Para el trabajo con la basys 3 y vhdl. Puedes descargarlo en su [sitio oficial](https://www.xilinx.com/support/download.html)
+- Visual Studio Code: Para la programación de microcontroladores. Puedes descargarlo en su [sitio oficial](https://code.visualstudio.com/download)    
 
 ## Estructura del repositorio
 
