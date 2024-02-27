@@ -9,6 +9,7 @@ En el semestre 2024-1 Seré el monitor (también conocido como asistente de doce
 
 Mi responsabilidad directa será dar asesoria a los estudiantes en los eventos calificables los cuales son: exámenes (dos(2) quices, parcial y final) y los 3 últimos de los 4 laboratorios de la asignatura (no ayudaré de manera directa en el laboratorio 1 por solicitud del docente) aún asi, daré apoyo extra a los estudiantes si es necesario.  
 
+***Aclaración:*** El equipo que uso para desarrollar todas las tareas funciona con el sistema operativo Windows. Por esta razón todo el desarrollo del repositorio y las diferentes recomendaciones estarán hechas desde mi experiencia abordando todo con Windows. AUN ASÍ el proceso no cambia en prácticamente nada desde otros sistemas operativos.
 > **NOTA:** El objetivo del repositorio **NO** es exponer y explicar todo el temario de la asignatura. El objetivo es exponer la solución de los entregables y los diferentes desarrollos que llevé a cabo para poder afrontar mi rol de monitor de la mejor manera posible. 
 
 #### Desarrollo de la asignatura 
