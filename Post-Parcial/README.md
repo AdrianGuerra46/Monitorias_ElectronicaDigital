@@ -2,9 +2,9 @@
 
 ## Microcontroladores
 
+![Imagen ilustrativa](https://blogs.masterhacks.net/wp-content/uploads/2018/10/masterhacks_chips_espias_supermicro.png)
 
-
-La segunda mitad de la asignatura está enfocada principalmente en **microcontroladores**. El microcontrolador "rey de la asignatura" será el ESP32, sobre este desarrollaremos software para implementar en hardware. Programaremos en C y Arduino, para proximamente implementar en cirucitos haciendo uso desde led hasta sensores y motores. 
+La segunda mitad de la asignatura está enfocada principalmente en **microcontroladores**. El microcontrolador "rey de la asignatura" será el ESP32, sobre este desarrollaremos software para implementar en hardware. Programaremos en C y Arduino, para proximamente implementar en cirucitos haciendo uso desde led hasta sensores y motores.
 
 ## Requisitos Previos
 
