@@ -16,7 +16,6 @@ La segunda mitad de la asignatura está enfocada principalmente en **microcontro
   - ![imagen no reconocimiento](https://images.imyfone.com/imyfonees/assets/article/recover-pc-data/update-usb-drive.jpg)
 Si ese llega a ser tu caso, puedes descargar el driver desde [Este enlace](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads) Te recomiendo la versión "Universal Windows Driver". E instalarlo dandole a "actualizar controlador" y buscando la carpeta donde descargaste el controlador.
 
-
 ## Conceptos 
 
 ### ¿Qué es un microcontrolador?
@@ -31,6 +30,6 @@ Un microcontrolador (abreviado µC, UC o mCU) es un circuito integrado programab
 ESP32 es la denominación de una familia de chips SoC de bajo coste y consumo de energía, con tecnología Wi-Fi y Bluetooth de modo dual integrada. El ESP32 emplea un microprocesador Tensilica Xtensa LX6 en sus variantes de simple y doble núcleo e incluye interruptores de antena, balun de radiofrecuencia, amplificador de potencia, amplificador receptor de bajo ruido, filtros, y módulos de administración de energía. El ESP32 fue creado y desarrollado por Espressif Systems y es fabricado por TSMC utilizando su proceso de 40 nm.Este será nuestra principal herramienta de trabajo en esta segunda y última parte del curso.
 
 ##### Distribución de Pinout de ESP32
-
 ![Pinout](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/_images/esp32-devkitC-v4-pinout.png)
-Esta imagen será muy importante para el desarrollo de todos los sistemas asociados a este microncontrolador.
+
+Esta imagen será muy importante para el desarrollo de todos los sistemas asociados a este microncontrolador. 
