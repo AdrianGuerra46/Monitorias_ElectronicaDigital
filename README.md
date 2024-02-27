@@ -9,9 +9,11 @@ En el semestre 2024-1 Seré el monitor (también conocido como asistente de doce
 
 Mi responsabilidad directa será dar asesoria a los estudiantes en los eventos calificables los cuales son: exámenes (dos(2) quices, parcial y final) y los 3 últimos de los 4 laboratorios de la asignatura (no ayudaré de manera directa en el laboratorio 1 por solicitud del docente) aún asi, daré apoyo extra a los estudiantes si es necesario.  
 
+> **NOTA:** El objetivo del repositorio **NO** es exponer y explicar todo el temario de la asignatura. El objetivo es exponer la solución de los entregables y los diferentes desarrollos que llevé a cabo para poder afrontar mi rol de monitor de la mejor manera posible. 
+
 #### Desarrollo de la asignatura 
 
-De forma **muy general** la asignatura se divide principalmente en dos temas, los cuales está divididos cronológicamente por el examen parcial.
+De forma **muy general** la asignatura se divide principalmente en dos temas, los cuales están divididos cronológicamente por el examen parcial.
 
 1. **Pre-Parcial**: En esta primera parte tenemos el primer acercamiento a la electrónica digital trantando temas como:
     - Sistemas numéricos 
@@ -42,7 +44,7 @@ De forma **muy general** la asignatura se divide principalmente en dos temas, lo
 
 Cada uno de estos temas estarám mejor abordados en sus respectivos directorios
 
-## Estructura del repositorio
+### Estructura del repositorio
 
 - En el repositorio montaré todo lo que tenga que resolver/desarrollar durante el proceso de la monitoria, es decir, talleres, laboratorios, entre otros. 
 - Dividiré el temario y desarrollo en dos directorios, Pre-Parcial y Post-Parcial. En los cuales abordaré todo los diseños y solciones. Estarán divididos en tantos directorios y ficheros como considere necesarios (esto estará mejor explicado en el archivo README de cada directorio).
