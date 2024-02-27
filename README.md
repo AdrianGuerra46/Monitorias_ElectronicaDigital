@@ -16,7 +16,7 @@ Mi responsabilidad directa será dar asesoria a los estudiantes en los eventos c
 
 De forma **muy general** la asignatura se divide principalmente en dos temas, los cuales están divididos cronológicamente por el examen parcial.
 
-1. **Pre-Parcial**: En esta primera parte tenemos el primer acercamiento a la electrónica digital trantando temas como:
+1. [**Pre-Parcial**](https://github.com/AdrianGuerra46/Monitorias_ElectronicaDigital/tree/main/Pre-Parcial): En esta primera parte tenemos el primer acercamiento a la electrónica digital trantando temas como:
     - Sistemas numéricos 
     - Compuertas lógicas
     - FPGA (Basys 3)
@@ -29,7 +29,7 @@ De forma **muy general** la asignatura se divide principalmente en dos temas, lo
     - Quiz 1: Enfocado en Compuertas lógicas y aplicación sobre la tarjeta Basys 3 usando VHDL.
     - Laboratorio 2: Diseñar e implementar sistemas digitales basado en lógica secuencial en una FPGA.
     - Parcial: Es la segunda evaluación más significativa del curso (con una valor del 20%) y se evaua todo el conocimiento tanto conceptual como práctico obtenido hasta el momento. 
-2. **Post-Parcial:** En esta segunda parte del curso nos enfocamos en microcontroladores y se abordan temas como: 
+2. [**Post-Parcial:**](https://github.com/AdrianGuerra46/Monitorias_ElectronicaDigital/tree/main/Post-Parcial) En esta segunda parte del curso nos enfocamos en microcontroladores y se abordan temas como: 
     - Introducción a los microcontroladores (Qué es?, Partes, entre otros.).
     - ESP32 (Principal microcontrolador de la asignatura) 
     - Visual Studio Code 
