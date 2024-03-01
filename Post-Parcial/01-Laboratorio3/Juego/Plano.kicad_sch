@@ -1876,28 +1876,6 @@
 			)
 		)
 	)
-	(global_label "3.3V"
-		(shape input)
-		(at 161.29 38.735 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "067ba326-25b6-4785-b07b-d000343dadc8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.1924 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 85.09 26.67 180)
@@ -2582,7 +2560,7 @@
 	)
 	(global_label "GPIO18"
 		(shape input)
-		(at 171.45 38.735 0)
+		(at 170.942 38.608 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2592,7 +2570,7 @@
 		)
 		(uuid "67e44175-a283-4c5f-b258-0698d84769c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.3295 38.735 0)
+			(at 180.8215 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,6 +2615,28 @@
 		(uuid "728a0fad-f961-47d3-ad47-ce26ef7d1356")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 85.8543 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 163.83 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f42e5c6-e632-4fca-b9a6-d54f1cacd204")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.9743 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,6 +2976,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 160.782 38.608 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c64eba12-0382-4b28-a1e2-31cbaed64b37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.9263 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO18"
 		(shape input)
 		(at 201.295 71.12 90)
@@ -3060,28 +3082,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3.3V"
-		(shape input)
-		(at 163.83 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dda51630-30e6-468f-aaec-81102a56ba40")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.7324 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5266,7 +5266,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 166.37 38.735 0)
+		(at 165.862 38.608 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5275,7 +5275,7 @@
 		(fields_autoplaced yes)
 		(uuid "b21e77eb-708f-454a-8c8c-6fa86ff5b059")
 		(property "Reference" "SW1"
-			(at 166.37 31.115 0)
+			(at 165.862 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5283,7 +5283,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 166.37 33.655 0)
+			(at 165.862 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5291,7 +5291,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Piano_10.8x4.1mm_W7.62mm_P2.54mm"
-			(at 166.37 33.655 0)
+			(at 165.862 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5300,7 +5300,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 33.655 0)
+			(at 165.862 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5309,7 +5309,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 38.735 0)
+			(at 165.862 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)

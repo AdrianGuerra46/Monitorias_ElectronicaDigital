@@ -177,7 +177,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Piano_10.8x4.1mm_W7.62mm_P2.54mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -201,7 +201,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -214,6 +214,7 @@
 			)
 		)
 		(path "/b21e77eb-708f-454a-8c8c-6fa86ff5b059")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -463,7 +464,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 43 "3.3V")
+			(net 25 "GND")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "6261bb34-23d1-42ea-b0a4-f0a9cc66464f")
@@ -519,7 +520,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -531,7 +532,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -543,7 +544,7 @@
 				)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -555,7 +556,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?92*")
 		(path "/4a2f975b-ba16-4914-9016-57ed03952228")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -746,7 +749,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -770,7 +773,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -782,7 +785,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/93faeb8f-cae9-41cd-bb3a-cd371e71675f")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1118,7 +1123,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1142,7 +1147,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1154,7 +1159,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8b9e6b08-54c9-4c79-9936-79d11d2b570a")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1542,7 +1549,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "27e777f4-b993-43fd-9222-db57d740cc06")
-		(at 191.262 118.618 180)
+		(at 191.07 106.3 180)
 		(descr "Resistor, Axial_DIN0309 series, Axial, Vertical, pin pitch=2.54mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0309 series Axial Vertical pin pitch 2.54mm 0.5W = 1/2W length 9mm diameter 3.2mm")
 		(property "Reference" "R14"
@@ -1567,7 +1574,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1591,7 +1598,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1603,7 +1610,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/99100a54-07be-4b51-8063-43e7979c7ba9")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_arc
@@ -1749,7 +1758,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1773,7 +1782,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1785,7 +1794,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9957dca1-b596-4dd1-8634-76388f193bcb")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_arc
@@ -1906,7 +1917,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
 		(layer "F.Cu")
 		(uuid "41c2d489-69bd-478c-a010-bd2322359f7c")
-		(at 121.158 118.618 180)
+		(at 140.5 106.1 180)
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q6"
@@ -1931,7 +1942,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1943,7 +1954,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1955,7 +1966,7 @@
 				)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1967,7 +1978,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?92*")
 		(path "/00cc75e0-d884-4e83-8989-d0d63fcea71c")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2158,7 +2171,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2170,7 +2183,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2182,7 +2195,7 @@
 				)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2194,7 +2207,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?92*")
 		(path "/d7a08cdb-9a91-4fef-b1aa-6d5ecfe1f61b")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2385,7 +2400,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2409,7 +2424,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2421,7 +2436,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/46f90eeb-64bd-4374-b89a-0107e5d0dccd")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_arc
@@ -2542,7 +2559,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
 		(layer "F.Cu")
 		(uuid "6988995a-e0d3-4d47-8e9d-95d9ffdb15af")
-		(at 138.684 114.3 180)
+		(at 140.7 118.7 180)
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q5"
@@ -2567,7 +2584,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2579,7 +2596,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2591,7 +2608,7 @@
 				)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2603,7 +2620,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?92*")
 		(path "/a8c9fd32-65f5-43d9-b38f-e72ba8e8a2ed")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2794,7 +2813,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2818,7 +2837,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2830,7 +2849,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/e9bf81cf-0da3-4d15-93a6-18bdf1959626")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_arc
@@ -2976,7 +2997,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2988,7 +3009,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3000,7 +3021,7 @@
 				)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3012,7 +3033,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?92*")
 		(path "/2898cad9-9c84-460c-9e83-2713aff01a30")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3178,7 +3201,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
 		(layer "F.Cu")
 		(uuid "7d738916-991d-47ae-b32b-a2b54f929323")
-		(at 116.84 129.434 180)
+		(at 140.7 126.3 180)
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q7"
@@ -3203,7 +3226,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3215,7 +3238,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3227,7 +3250,7 @@
 				)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3239,7 +3262,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?92*")
 		(path "/5c916d7e-af91-48ad-bc16-622d4a9dabc1")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3430,7 +3455,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3454,7 +3479,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3466,7 +3491,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/913157ea-306d-4c46-bf64-c514fbfd0cdd")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_arc
@@ -3587,7 +3614,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
 		(layer "F.Cu")
 		(uuid "831b2543-347a-4356-85ee-d316dd08c931")
-		(at 134.112 92.604 180)
+		(at 136.2 86.3 180)
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q4"
@@ -3612,7 +3639,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3624,7 +3651,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3636,7 +3663,7 @@
 				)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3648,7 +3675,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?92*")
 		(path "/a34bd0d1-a9a9-44d9-8203-a83ac9b0d50e")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3839,7 +3868,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3863,7 +3892,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3875,7 +3904,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/99335004-9eb3-4b4a-95f7-ad4cdc330a47")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -4069,7 +4100,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4093,7 +4124,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4105,7 +4136,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/64e7eaac-cccd-48d5-a50d-bc8c6414d36f")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_arc
@@ -4251,7 +4284,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Piano_10.8x4.1mm_W7.62mm_P2.54mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4275,7 +4308,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4288,6 +4321,7 @@
 			)
 		)
 		(path "/2f52de16-e132-4190-9b1f-a44c123e4c78")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -4548,7 +4582,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 43 "3.3V")
+			(net 25 "GND")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "c0f5899b-0e16-46bf-98b6-ddcf1e79fbb6")
@@ -4593,7 +4627,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4617,7 +4651,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4629,7 +4663,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/7c35fcf3-0fbb-47df-8e50-62025c1a7e1a")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -4798,7 +4834,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "a22fa920-2e53-4d89-8d10-153f33e98b8a")
-		(at 162.814 85.598)
+		(at 159.56 82.7)
 		(descr "Resistor, Axial_DIN0309 series, Axial, Vertical, pin pitch=2.54mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0309 series Axial Vertical pin pitch 2.54mm 0.5W = 1/2W length 9mm diameter 3.2mm")
 		(property "Reference" "R4"
@@ -4824,7 +4860,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4848,7 +4884,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4860,7 +4896,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/78e486c5-f2dc-4f99-b640-3f438c1da0c0")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_arc
@@ -5006,7 +5044,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5030,7 +5068,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5042,7 +5080,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9cb83341-a587-4bed-835b-13e19c88bbe3")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5236,7 +5276,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5260,7 +5300,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5272,7 +5312,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/91cf8c50-92c9-4537-980b-d6d4db72e31d")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_arc
@@ -5418,7 +5460,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5442,7 +5484,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5454,7 +5496,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/61665996-1147-47bc-8faa-5fd5d64c66e4")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_arc
@@ -5600,7 +5644,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5624,7 +5668,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5636,7 +5680,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9a92e5e5-c760-41b2-bace-0fa56acde80c")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_arc
@@ -5782,7 +5828,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Vertical"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5806,7 +5852,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x19, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5818,7 +5864,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/815820ed-8595-4426-b687-e03680b62781")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6206,7 +6254,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
 		(layer "F.Cu")
 		(uuid "c0bb4275-94d5-4efb-93cb-38dfb83c7cfc")
-		(at 121.158 84.222 180)
+		(at 136.1 78.4 180)
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q3"
@@ -6231,7 +6279,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6243,7 +6291,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6255,7 +6303,7 @@
 				)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6267,7 +6315,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?92*")
 		(path "/1fd7b406-373f-4efa-9e55-c1cc9bf10d9c")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6433,7 +6483,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
 		(layer "F.Cu")
 		(uuid "c1644e56-dd42-4c9d-8860-9297de10fc02")
-		(at 126.238 108.458 180)
+		(at 140.57 112.24 180)
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q9"
@@ -6458,7 +6508,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6470,7 +6520,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6482,7 +6532,7 @@
 				)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6494,7 +6544,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO?92*")
 		(path "/470babe2-737d-4da8-9404-c84234e7270a")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6685,7 +6737,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6709,7 +6761,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6721,7 +6773,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/7dfdb22b-6c83-4c7a-ba64-eaac8212c055")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_arc
@@ -6867,7 +6921,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6891,7 +6945,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6903,7 +6957,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/626e9834-837e-4023-ac8c-de6a6bf70af0")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7239,7 +7295,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7263,7 +7319,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7275,7 +7331,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/cde4d4ab-d7a5-481c-9623-3b860f32bc42")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_arc
@@ -7421,7 +7479,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7445,7 +7503,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7457,7 +7515,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/dd8b467b-b175-4def-b08e-104a90abe64f")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_arc
@@ -7603,7 +7663,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7627,7 +7687,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7639,7 +7699,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9498430e-72a8-43b1-b945-1348bc33ceb9")
+		(sheetname "Raíz")
 		(sheetfile "Plano.kicad_sch")
 		(attr through_hole)
 		(fp_arc
@@ -7947,6 +8009,574 @@
 		(uuid "f3e96001-219e-453c-9b85-d32143215bf1")
 	)
 	(segment
+		(start 120.168 76.936)
+		(end 118.618 78.486)
+		(width 1)
+		(layer "F.Cu")
+		(net 9)
+		(uuid "1ca4006a-6729-4d7d-8ebd-0aa913e644d3")
+	)
+	(segment
+		(start 132.096 76.936)
+		(end 120.168 76.936)
+		(width 1)
+		(layer "F.Cu")
+		(net 9)
+		(uuid "34f52168-1c20-4ae1-8f65-56eeb5d1dd66")
+	)
+	(segment
+		(start 133.56 78.4)
+		(end 132.096 76.936)
+		(width 1)
+		(layer "F.Cu")
+		(net 9)
+		(uuid "b635712f-3534-482d-9e4c-23d11371f666")
+	)
+	(segment
+		(start 125.372 82.7)
+		(end 121.158 78.486)
+		(width 1)
+		(layer "B.Cu")
+		(net 10)
+		(uuid "4cb8f2e9-1594-480d-a712-2efb47e5123a")
+	)
+	(segment
+		(start 159.56 82.7)
+		(end 125.372 82.7)
+		(width 1)
+		(layer "B.Cu")
+		(net 10)
+		(uuid "e6fc445a-e52b-4aa2-86f3-b726e6780fd9")
+	)
+	(segment
+		(start 133.66 86.3)
+		(end 128.7 86.3)
+		(width 1)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "da6250c2-43e6-4b95-b566-db5f627942c5")
+	)
+	(segment
+		(start 128.7 86.3)
+		(end 126.2 83.8)
+		(width 1)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "daeb1364-6582-4b93-85f5-c1cbbe1543ac")
+	)
+	(segment
+		(start 126.2 83.8)
+		(end 126.238 83.762)
+		(width 1)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "e1b8c0b9-734a-4f22-abd0-f7869ee19543")
+	)
+	(segment
+		(start 126.238 83.762)
+		(end 126.238 78.486)
+		(width 1)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "f6ba564c-3a34-4a29-913c-0c699be212b4")
+	)
+	(segment
+		(start 203.962 137.668)
+		(end 100.068 137.668)
+		(width 1)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "3e6f402f-fb26-43b6-b0d7-b2dfaabc4514")
+	)
+	(segment
+		(start 98.3 135.9)
+		(end 98.3 135.3)
+		(width 1)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "7e0670d3-4a35-417c-a748-ace3289a6a83")
+	)
+	(segment
+		(start 100.068 137.668)
+		(end 98.3 135.9)
+		(width 1)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "94242968-057a-4dd5-847c-ee38e82fa0a9")
+	)
+	(segment
+		(start 98.298 135.298)
+		(end 98.298 124.206)
+		(width 1)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "a93184c8-1d3c-4419-85b9-524e1c4dae2b")
+	)
+	(segment
+		(start 98.3 135.3)
+		(end 98.298 135.298)
+		(width 1)
+		(layer "F.Cu")
+		(net 13)
+		(uuid "cea0077b-21dc-4390-859f-f0a44945028d")
+	)
+	(segment
+		(start 103.378 124.206)
+		(end 103.378 132.99)
+		(width 1)
+		(layer "F.Cu")
+		(net 15)
+		(uuid "a08d3379-2094-4d2b-adac-65aab64447b0")
+	)
+	(segment
+		(start 105.9 127.9)
+		(end 105.9 127.3)
+		(width 1)
+		(layer "F.Cu")
+		(net 16)
+		(uuid "2daecdec-7be0-4d22-9a91-600d2b8a0478")
+	)
+	(segment
+		(start 105.9 127.3)
+		(end 105.918 127.282)
+		(width 1)
+		(layer "F.Cu")
+		(net 16)
+		(uuid "90934a6e-fe56-45c3-ae3b-bb692a2b7804")
+	)
+	(segment
+		(start 108.048 130.048)
+		(end 105.9 127.9)
+		(width 1)
+		(layer "F.Cu")
+		(net 16)
+		(uuid "a9712b4d-5a6e-463f-9559-c82bb45f5ce9")
+	)
+	(segment
+		(start 196.342 130.048)
+		(end 108.048 130.048)
+		(width 1)
+		(layer "F.Cu")
+		(net 16)
+		(uuid "c96c8faf-fa0e-4a3b-a503-741d4141436b")
+	)
+	(segment
+		(start 105.918 127.282)
+		(end 105.918 124.206)
+		(width 1)
+		(layer "F.Cu")
+		(net 16)
+		(uuid "ebd20324-07f2-4bb6-a18d-16c13c62d16a")
+	)
+	(segment
+		(start 136.96 127.5)
+		(end 114.292 127.5)
+		(width 1)
+		(layer "F.Cu")
+		(net 18)
+		(uuid "06b6328c-50fd-4742-88ba-35f3d72b66e8")
+	)
+	(segment
+		(start 114.292 127.5)
+		(end 110.998 124.206)
+		(width 1)
+		(layer "F.Cu")
+		(net 18)
+		(uuid "085bdec4-41e5-4fba-a480-91a41cdd7646")
+	)
+	(segment
+		(start 138.16 126.3)
+		(end 136.96 127.5)
+		(width 1)
+		(layer "F.Cu")
+		(net 18)
+		(uuid "d1cce27e-558d-4089-9bc2-c42406a034b6")
+	)
+	(segment
+		(start 191.262 122.428)
+		(end 130.208032 122.428)
+		(width 1)
+		(layer "B.Cu")
+		(net 19)
+		(uuid "28cebed0-9dcf-4de3-b632-542eca91c0e0")
+	)
+	(segment
+		(start 126.880032 125.756)
+		(end 115.088 125.756)
+		(width 1)
+		(layer "B.Cu")
+		(net 19)
+		(uuid "b375d907-fe89-4f80-8685-23279d84f9b6")
+	)
+	(segment
+		(start 115.088 125.756)
+		(end 113.538 124.206)
+		(width 1)
+		(layer "B.Cu")
+		(net 19)
+		(uuid "c126cee7-b5b3-4c4a-b8b6-53d7ddf0ec0f")
+	)
+	(segment
+		(start 130.208032 122.428)
+		(end 126.880032 125.756)
+		(width 1)
+		(layer "B.Cu")
+		(net 19)
+		(uuid "ecc42f37-09af-45a6-9050-a5c40b388d58")
+	)
+	(segment
+		(start 136.724 106.1)
+		(end 118.618 124.206)
+		(width 1)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "2b79cc0c-cd7f-403b-88e3-8862af2e364b")
+	)
+	(segment
+		(start 137.96 106.1)
+		(end 136.724 106.1)
+		(width 1)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "39dda1ab-30af-4c4b-abdc-20a1b4e34c47")
+	)
+	(segment
+		(start 161.798 117.348)
+		(end 158.996 120.15)
+		(width 1)
+		(layer "F.Cu")
+		(net 22)
+		(uuid "3fd46622-8946-45f8-8ce0-84d157c6907a")
+	)
+	(segment
+		(start 122.708 125.756)
+		(end 121.158 124.206)
+		(width 1)
+		(layer "F.Cu")
+		(net 22)
+		(uuid "569c3066-945f-4c94-8f59-c9c3c106da64")
+	)
+	(segment
+		(start 132.55 120.15)
+		(end 126.944 125.756)
+		(width 1)
+		(layer "F.Cu")
+		(net 22)
+		(uuid "848a0846-9e4d-48de-8fd8-d7842c9ccaaf")
+	)
+	(segment
+		(start 126.944 125.756)
+		(end 122.708 125.756)
+		(width 1)
+		(layer "F.Cu")
+		(net 22)
+		(uuid "9661070f-f3c1-4de9-a7ca-3c09fceea109")
+	)
+	(segment
+		(start 158.996 120.15)
+		(end 132.55 120.15)
+		(width 1)
+		(layer "F.Cu")
+		(net 22)
+		(uuid "e5e29ddb-5684-496a-8a86-6611322d8af0")
+	)
+	(segment
+		(start 135.664 112.24)
+		(end 123.698 124.206)
+		(width 1)
+		(layer "F.Cu")
+		(net 23)
+		(uuid "a74dd740-d4e1-4629-ad97-2d62860201ab")
+	)
+	(segment
+		(start 138.03 112.24)
+		(end 135.664 112.24)
+		(width 1)
+		(layer "F.Cu")
+		(net 23)
+		(uuid "e7af6ee7-e7da-467f-9bec-db4fa1362bd4")
+	)
+	(segment
+		(start 131.744 118.7)
+		(end 126.238 124.206)
+		(width 1)
+		(layer "F.Cu")
+		(net 24)
+		(uuid "5862dae7-87fc-4c46-8af7-a74ab682df2b")
+	)
+	(segment
+		(start 138.16 118.7)
+		(end 131.744 118.7)
+		(width 1)
+		(layer "F.Cu")
+		(net 24)
+		(uuid "78e75bfa-8980-4cb8-8141-04b56a9b3dc3")
+	)
+	(segment
+		(start 139.508 89.408)
+		(end 170.942 89.408)
+		(width 1)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "34a07c09-421f-4edf-b989-290d666f7e83")
+	)
+	(segment
+		(start 136.2 86.3)
+		(end 136.4 86.3)
+		(width 1)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "46bafb7d-4d16-40f8-b8be-2fddf0e4cbd3")
+	)
+	(segment
+		(start 136.2 86.3)
+		(end 136.2 78.5)
+		(width 1)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "d5a648b4-2afa-4455-a3c9-d61805414cdb")
+	)
+	(segment
+		(start 136.2 78.5)
+		(end 136.1 78.4)
+		(width 1)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "dc44121b-ccde-49fd-934e-d77b7292a616")
+	)
+	(segment
+		(start 136.4 86.3)
+		(end 139.508 89.408)
+		(width 1)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "ec843973-9c11-4fb6-a0dc-f21591f69ce7")
+	)
+	(segment
+		(start 214.122 121.289)
+		(end 211.459 121.289)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "01cfa630-2695-4d0d-a014-eea5b6cafa41")
+	)
+	(segment
+		(start 140.7 112.37)
+		(end 140.57 112.24)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "05f963f0-9421-4dc0-8be8-ac6ef152cc55")
+	)
+	(segment
+		(start 203.962 113.792)
+		(end 218.212 99.542)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "0a3d195e-58b0-49af-b9f6-aa8261697ad8")
+	)
+	(segment
+		(start 96.748 122.656)
+		(end 102.154 117.25)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "0cb5ed01-e01e-4016-a5a0-0d3365e43b9a")
+	)
+	(segment
+		(start 110.055412 69.744)
+		(end 113.538 73.226588)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "348f7658-cb58-47df-90a7-b5005ecb6ccd")
+	)
+	(segment
+		(start 134.697412 132.99)
+		(end 105.918 132.99)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "3ad19c44-9c54-4481-870a-09f4a3cd5cac")
+	)
+	(segment
+		(start 218.212 87.91)
+		(end 214.122 83.82)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "3baa8c54-a4aa-4a0b-8766-2287e5e1def0")
+	)
+	(segment
+		(start 136.1 76.65)
+		(end 136.1 78.4)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "45d8aeea-58d2-4202-a0e0-d9374f1a5e97")
+	)
+	(segment
+		(start 140.5 106.1)
+		(end 140.5 90.6)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "4de4bf06-e7bb-4d41-ac26-e796bf36ec40")
+	)
+	(segment
+		(start 218.212 99.542)
+		(end 218.212 87.91)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "615d9d71-adf1-45d9-a12b-801609913e65")
+	)
+	(segment
+		(start 105.918 69.744)
+		(end 110.055412 69.744)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "6d764578-517d-47da-aff4-e6ee845e1c65")
+	)
+	(segment
+		(start 140.57 112.24)
+		(end 140.57 106.17)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "7635c9fd-ea37-419a-803f-3f5aadba8adc")
+	)
+	(segment
+		(start 105.918 132.99)
+		(end 105.918 131.826)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "8dc77935-65d2-4357-8b9f-60fdd6979609")
+	)
+	(segment
+		(start 113.538 73.914)
+		(end 133.364 73.914)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "8fc10775-ddfb-46a5-96de-335480bc05d9")
+	)
+	(segment
+		(start 99.848 125.756)
+		(end 96.748 125.756)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "910fbbb7-be60-49b5-b20b-47f88ab6e456")
+	)
+	(segment
+		(start 140.57 106.17)
+		(end 140.5 106.1)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "975ac132-a562-4712-8274-16a667578a26")
+	)
+	(segment
+		(start 140.7 126.987412)
+		(end 134.697412 132.99)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "adc4b853-f1af-4a87-af11-077c2bbfd91e")
+	)
+	(segment
+		(start 96.748 125.756)
+		(end 96.748 122.656)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "b26a3985-9d41-4938-b210-dac4c93042d2")
+	)
+	(segment
+		(start 211.459 121.289)
+		(end 203.962 113.792)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "b422f50f-1ede-4ce9-b756-ac90c7816d4e")
+	)
+	(segment
+		(start 139.937412 117.25)
+		(end 140.7 118.012588)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "b5a51f95-3c8e-418b-a56e-2707859121a9")
+	)
+	(segment
+		(start 113.538 73.226588)
+		(end 113.538 73.914)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "bcb40e40-eae9-4172-a972-fed37cd8fe32")
+	)
+	(segment
+		(start 105.918 131.826)
+		(end 99.848 125.756)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "c4c846b2-68eb-4b76-bfa5-3e4094ae5d56")
+	)
+	(segment
+		(start 133.364 73.914)
+		(end 136.1 76.65)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "ca012029-e546-41fe-b218-2df9018d9eb0")
+	)
+	(segment
+		(start 140.7 126.3)
+		(end 140.7 126.987412)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "d1d16c5e-5dc4-4156-a4fd-fafc5302d522")
+	)
+	(segment
+		(start 140.7 118.7)
+		(end 140.7 112.37)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "dca6bcd9-b427-47ed-ab90-663da392c70a")
+	)
+	(segment
+		(start 140.5 90.6)
+		(end 136.2 86.3)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "eae8db8a-51ff-48c0-98cb-324b054f9bcc")
+	)
+	(segment
+		(start 102.154 117.25)
+		(end 139.937412 117.25)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "f150eebd-37a8-4c2a-87c6-89846c3da80b")
+	)
+	(segment
+		(start 140.7 118.012588)
+		(end 140.7 118.7)
+		(width 1)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "fcbcc1d2-13ba-4893-9bba-481e816aea1d")
+	)
+	(segment
 		(start 173.482 89.408)
 		(end 173.482 93.58)
 		(width 1)
@@ -7963,20 +8593,44 @@
 		(uuid "fbe130f6-6932-476f-b988-22c6f6a04133")
 	)
 	(segment
-		(start 189.992 85.598)
-		(end 165.354 85.598)
+		(start 214.122 76.2)
+		(end 204.24 86.082)
 		(width 1)
-		(layer "F.Cu")
-		(net 33)
-		(uuid "c067eeed-f6ea-4ad1-b05b-876629c306f9")
+		(layer "B.Cu")
+		(net 32)
+		(uuid "0f5d4b45-917a-4503-9724-9e79f307577b")
 	)
 	(segment
-		(start 193.802 89.408)
-		(end 189.992 85.598)
+		(start 194.588 86.082)
+		(end 191.262 89.408)
+		(width 1)
+		(layer "B.Cu")
+		(net 32)
+		(uuid "179942e6-6e43-4708-b350-1e594cfa603c")
+	)
+	(segment
+		(start 204.24 86.082)
+		(end 194.588 86.082)
+		(width 1)
+		(layer "B.Cu")
+		(net 32)
+		(uuid "9a90c785-2682-4498-99da-e853651bc4c3")
+	)
+	(segment
+		(start 187.094 82.7)
+		(end 193.802 89.408)
 		(width 1)
 		(layer "F.Cu")
 		(net 33)
-		(uuid "fc895ada-88f1-4c8c-b02c-7ceb8eb0395c")
+		(uuid "ac0befd1-a7f5-4ccb-afd6-2a4e72bb7231")
+	)
+	(segment
+		(start 162.1 82.7)
+		(end 187.094 82.7)
+		(width 1)
+		(layer "F.Cu")
+		(net 33)
+		(uuid "d6f0971f-e42c-457a-b335-dcb098551566")
 	)
 	(segment
 		(start 196.196 84.582)
@@ -8043,6 +8697,30 @@
 		(uuid "e1f61639-96de-4423-bef8-6288c6e3232e")
 	)
 	(segment
+		(start 214.122 128.909)
+		(end 206.141 120.928)
+		(width 1)
+		(layer "B.Cu")
+		(net 49)
+		(uuid "11cd7fec-d477-4271-885b-3360e0ff1b6f")
+	)
+	(segment
+		(start 206.141 120.928)
+		(end 193.318 120.928)
+		(width 1)
+		(layer "B.Cu")
+		(net 49)
+		(uuid "d3d577ae-3c31-4086-9d88-52f6a88ac313")
+	)
+	(segment
+		(start 193.318 120.928)
+		(end 186.182 113.792)
+		(width 1)
+		(layer "B.Cu")
+		(net 49)
+		(uuid "ea23790c-834e-4383-a87a-d49cf25f1b3e")
+	)
+	(segment
 		(start 185.166 117.348)
 		(end 164.338 117.348)
 		(width 1)
@@ -8059,12 +8737,20 @@
 		(uuid "ed35a37f-0700-4505-a623-c24d6f1e55c1")
 	)
 	(segment
-		(start 191.262 113.792)
-		(end 191.262 118.618)
+		(start 191.262 106.492)
+		(end 191.07 106.3)
 		(width 1)
 		(layer "F.Cu")
 		(net 51)
-		(uuid "0d9fcb2e-0671-4875-a624-ffcfb21672e5")
+		(uuid "742d58dc-3d7a-4be6-bb8a-b077e43cd641")
+	)
+	(segment
+		(start 191.262 113.792)
+		(end 191.262 106.492)
+		(width 1)
+		(layer "F.Cu")
+		(net 51)
+		(uuid "caa8a532-30fd-468e-952c-b2b85ec46850")
 	)
 	(segment
 		(start 193.802 113.792)
@@ -8169,5 +8855,229 @@
 		(layer "F.Cu")
 		(net 62)
 		(uuid "bc9d59a5-23e6-4369-be31-70124e943af4")
+	)
+	(segment
+		(start 134.83 76.995)
+		(end 134.83 78.4)
+		(width 1)
+		(layer "F.Cu")
+		(net 63)
+		(uuid "0846d5f5-6bdd-450b-9906-6a1d6a1a682a")
+	)
+	(segment
+		(start 134.875 76.95)
+		(end 134.83 76.995)
+		(width 1)
+		(layer "F.Cu")
+		(net 63)
+		(uuid "4fbe7160-07fa-4539-9b17-d8976d55a0d5")
+	)
+	(segment
+		(start 193.656 84.582)
+		(end 186.024 76.95)
+		(width 1)
+		(layer "F.Cu")
+		(net 63)
+		(uuid "62439ac1-dfd2-4372-852c-c5183c15543c")
+	)
+	(segment
+		(start 186.024 76.95)
+		(end 134.875 76.95)
+		(width 1)
+		(layer "F.Cu")
+		(net 63)
+		(uuid "9a386a2f-207a-442f-a182-c473073c34e4")
+	)
+	(segment
+		(start 134.93 87.705)
+		(end 134.93 86.3)
+		(width 1)
+		(layer "F.Cu")
+		(net 64)
+		(uuid "3ce0635f-6615-46ec-b20d-eb6be8239b53")
+	)
+	(segment
+		(start 168.256 93.726)
+		(end 140.951 93.726)
+		(width 1)
+		(layer "F.Cu")
+		(net 64)
+		(uuid "d2299684-f467-4f50-b3dc-d0b1fd7d81fd")
+	)
+	(segment
+		(start 140.951 93.726)
+		(end 134.93 87.705)
+		(width 1)
+		(layer "F.Cu")
+		(net 64)
+		(uuid "f5c1eca7-6e2a-45d4-96d8-b6cbbf7de9c9")
+	)
+	(segment
+		(start 146.997 109.728)
+		(end 139.43 117.295)
+		(width 1)
+		(layer "F.Cu")
+		(net 65)
+		(uuid "3a6cef39-eb63-4ba9-b875-7286279ce665")
+	)
+	(segment
+		(start 170.942 109.728)
+		(end 146.997 109.728)
+		(width 1)
+		(layer "F.Cu")
+		(net 65)
+		(uuid "818a17b6-ce07-4e8c-9c33-9bc855ad6af8")
+	)
+	(segment
+		(start 139.43 117.295)
+		(end 139.43 118.7)
+		(width 1)
+		(layer "F.Cu")
+		(net 65)
+		(uuid "fb03823c-7d65-4ecc-a8f6-98ce311756ad")
+	)
+	(segment
+		(start 139.23 104.57)
+		(end 139.23 106.1)
+		(width 1)
+		(layer "F.Cu")
+		(net 66)
+		(uuid "4deca754-49f8-4a6a-a1ac-44e6374355ac")
+	)
+	(segment
+		(start 188.53 106.3)
+		(end 185.03 102.8)
+		(width 1)
+		(layer "F.Cu")
+		(net 66)
+		(uuid "52b58c89-284f-4cf3-975d-a2b38b59ad53")
+	)
+	(segment
+		(start 185.03 102.8)
+		(end 141 102.8)
+		(width 1)
+		(layer "F.Cu")
+		(net 66)
+		(uuid "7c41a283-60cb-4cb9-bec8-645990c262d2")
+	)
+	(segment
+		(start 141 102.8)
+		(end 139.23 104.57)
+		(width 1)
+		(layer "F.Cu")
+		(net 66)
+		(uuid "faa699b1-f2d3-4a2d-8fd3-d3b67851df97")
+	)
+	(segment
+		(start 192.29 127.75)
+		(end 193.802 126.238)
+		(width 1)
+		(layer "F.Cu")
+		(net 67)
+		(uuid "1dbe9b33-1a32-49c7-abd5-f4b36b24c3ef")
+	)
+	(segment
+		(start 139.43 126.3)
+		(end 139.43 127.705)
+		(width 1)
+		(layer "F.Cu")
+		(net 67)
+		(uuid "55cacc8b-efd9-4524-9c54-666c6af1596b")
+	)
+	(segment
+		(start 139.475 127.75)
+		(end 192.29 127.75)
+		(width 1)
+		(layer "F.Cu")
+		(net 67)
+		(uuid "cfa9bb1c-f120-4fe2-b5f8-ddf7d26855bc")
+	)
+	(segment
+		(start 139.43 127.705)
+		(end 139.475 127.75)
+		(width 1)
+		(layer "F.Cu")
+		(net 67)
+		(uuid "f0b60ec6-edcc-4bbe-aae4-876a01595eab")
+	)
+	(segment
+		(start 198.082001 134.657999)
+		(end 105.257999 134.657999)
+		(width 1)
+		(layer "F.Cu")
+		(net 68)
+		(uuid "04431381-600a-476c-9308-cbfb0581f33a")
+	)
+	(segment
+		(start 198.882 133.858)
+		(end 198.082001 134.657999)
+		(width 1)
+		(layer "F.Cu")
+		(net 68)
+		(uuid "0b7a5523-9e62-4a2f-9eb4-c21a037c7052")
+	)
+	(segment
+		(start 104.648 134.048)
+		(end 104.648 132.99)
+		(width 1)
+		(layer "F.Cu")
+		(net 68)
+		(uuid "58c295c6-0c4c-49c5-9793-1e157224706a")
+	)
+	(segment
+		(start 105.257999 134.657999)
+		(end 104.648 134.048)
+		(width 1)
+		(layer "F.Cu")
+		(net 68)
+		(uuid "9640f743-ff49-438c-a6fc-e69b701c334a")
+	)
+	(segment
+		(start 140.335 109.8)
+		(end 139.3 110.835)
+		(width 1)
+		(layer "F.Cu")
+		(net 69)
+		(uuid "0804d94b-6a23-4b72-94bf-06473e5f4e75")
+	)
+	(segment
+		(start 139.3 110.835)
+		(end 139.3 112.24)
+		(width 1)
+		(layer "F.Cu")
+		(net 69)
+		(uuid "73f569e1-2709-4f91-ba15-4c29a6bf3304")
+	)
+	(segment
+		(start 173.482 105.918)
+		(end 171.85 107.55)
+		(width 1)
+		(layer "F.Cu")
+		(net 69)
+		(uuid "8af3a74f-2b68-48ef-8cc0-c277f38db9c4")
+	)
+	(segment
+		(start 141.2 109.8)
+		(end 140.335 109.8)
+		(width 1)
+		(layer "F.Cu")
+		(net 69)
+		(uuid "936b1df8-f2bf-4107-a282-91e95f9d7621")
+	)
+	(segment
+		(start 171.85 107.55)
+		(end 143.45 107.55)
+		(width 1)
+		(layer "F.Cu")
+		(net 69)
+		(uuid "ca422190-595f-4c47-bb59-be6e978bfa90")
+	)
+	(segment
+		(start 143.45 107.55)
+		(end 141.2 109.8)
+		(width 1)
+		(layer "F.Cu")
+		(net 69)
+		(uuid "d70443c4-a9a6-4410-80eb-449051558216")
 	)
 )
