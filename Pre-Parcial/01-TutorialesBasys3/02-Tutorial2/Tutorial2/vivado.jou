@@ -13,3 +13,4 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/01-TutorialesBasys3/02-Tutorial2/Tutorial2/Tutorial2.xpr
+update_compile_order -fileset sources_1

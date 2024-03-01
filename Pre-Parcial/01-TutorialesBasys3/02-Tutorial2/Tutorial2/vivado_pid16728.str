@@ -155,3 +155,10 @@ Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // HMemoryUtils.trashcanNow. Engine heap size: 1,107 MB. GUI used memory: 74 MB. Current time: 2/27/24, 3:32:13 PM COT
 // WARNING: HEventQueue.dispatchEvent() is taking  1146 ms.
 // [GUI Memory]: 128 MB (+5829kb) [00:00:48]
+// Tcl Message: open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:26 . Memory (MB): peak = 1482.742 ; gain = 392.453 
+// Project name: Tutorial2; location: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/01-TutorialesBasys3/02-Tutorial2/Tutorial2; part: xc7a35ticpg236-1L
+dismissDialog("Open Project"); // bq (Open Project Progress)
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 147 MB (+12914kb) [00:01:27]
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1228 ms. Increasing delay to 3684 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2166 ms. Increasing delay to 3000 ms.
