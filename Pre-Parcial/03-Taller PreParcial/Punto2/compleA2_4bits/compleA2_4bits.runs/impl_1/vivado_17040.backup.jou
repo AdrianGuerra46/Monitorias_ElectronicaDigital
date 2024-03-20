@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Mar 18 15:33:39 2024
+# Process ID: 17040
+# Current directory: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/compleA2_4bits.runs/impl_1
+# Command line: vivado.exe -log compleA2_4bits.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source compleA2_4bits.tcl -notrace
+# Log file: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/compleA2_4bits.runs/impl_1/compleA2_4bits.vdi
+# Journal file: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/compleA2_4bits.runs/impl_1\vivado.jou
+# Running On: aguerra, OS: Windows, CPU Frequency: 2296 MHz, CPU Physical cores: 8, Host memory: 7448 MB
+#-----------------------------------------------------------
+source compleA2_4bits.tcl -notrace
