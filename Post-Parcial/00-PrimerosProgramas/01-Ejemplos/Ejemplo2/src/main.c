@@ -1,3 +1,7 @@
+/*Programar en lenguaje C el microncontrolador ESP32 de tal manera que por medio 
+de un pusador conectado al pin 5 del microcontrolador se pueda controlar el
+encendido y apago del led conectado al pin 2*/
+
 #include <stddef.h>
 #include "driver/gpio.h"
 #include "freertos/FreeRTOS.h"
