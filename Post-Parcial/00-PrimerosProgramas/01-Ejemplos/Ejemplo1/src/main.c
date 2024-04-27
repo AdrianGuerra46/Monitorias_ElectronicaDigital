@@ -8,13 +8,15 @@ Lineas*/
 que permita encender y apagar a una frecuencia de 1 Hz un led 
 conectado al pin 2*/
 
+// Incluye la biblioteca estándar de definiciones. Es una práctica común en C
+/*Incluye la biblioteca de controladores de GPIO (General Purpose Input/Output) 
+del ESP-IDF, necesaria para configurar y controlar los pines GPIO del ESP32*/
 
-
-#include <stddef.h> // Incluye la biblioteca estándar de definiciones. Es una práctica común en C
-#include "driver/gpio.h" /*Incluye la biblioteca de controladores de GPIO (General Purpose Input/Output) 
-                           del ESP-IDF, necesaria para configurar y controlar los pines GPIO del ESP32*/
+#include <stddef.h>
+#include "driver/gpio.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
+
 /*Las dos bibliotecas anteriores incluyen las cabeceras principales de FreeRTOS y su API de tareas, 
 permitiendo utilizar las funcionalidades del sistema operativo en tiempo real, como delays en tareas.*/
 
