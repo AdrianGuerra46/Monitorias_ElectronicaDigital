@@ -10,7 +10,7 @@ La primer mitad de la asignatura está enfocada principalmente en los **sistemas
 ## Requisitos Previos
 
 - **Vivado:** Como mencioné anteriormente este es el software que usaremos para aplicar los sistemas combinacionales de manera práctica. Vivado es un conjunto de herramientas de software de diseño de sistemas electrónicos desarrollado por Xilinx, una empresa líder en tecnología de circuitos integrados programables. Vivado se utiliza para el diseño, verificación y programación de dispositivos lógicos programables (FPGAs) y sistemas en chip (SoC). Puedes descargarlo en el [Sitio oficial de Xilinx](https://www.xilinx.com/support/download.html).
-- **Proteus:**Proteus es el programa con el que se realizarán las simulaciones de los circuitos realizados con compuertas lógicas.
+- **Proteus:** Proteus es el programa con el que se realizarán las simulaciones de los circuitos realizados con compuertas lógicas.
 
 
 ## Conceptos 

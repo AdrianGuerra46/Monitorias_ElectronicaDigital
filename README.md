@@ -48,11 +48,11 @@ Cada uno de estos temas estarám mejor abordados en sus respectivos directorios
 ### Estructura del repositorio
 
 - En el repositorio montaré todo lo que tenga que resolver/desarrollar durante el proceso de la monitoria, es decir, talleres, laboratorios, entre otros. 
-- Dividiré el temario y desarrollo en dos directorios, Pre-Parcial y Post-Parcial. En los cuales abordaré todo los diseños y solciones. Estarán divididos en tantos directorios y ficheros como considere necesarios (esto estará mejor explicado en el archivo README de cada directorio).
+- Dividiré el temario y desarrollo en dos directorios, Pre-Parcial y Post-Parcial. En los cuales abordaré todo los diseños y soluciones. Estarán divididos en tantos directorios y ficheros como considere necesarios (esto estará mejor explicado en el archivo README de cada directorio).
 - A su vez, estos directorios estarán divididos en otros directorios los cuales estarán enumerados de forma cronológica (para ser abordados de la misma manera). En estos se encontrarán tanto enunciados como soluciones de cada Taller, Quiz, Laboratorio, Etc. 
 
 
-> Nota: En algunos directorios puede que haya algunos archivos PDF provenientes de mi Table (dispositivo donde tomo apuntes) estos serán incluidos si condero necesario para realizar anotaciones o desarrolos más explicitos y dejar mejor explicado el tema o el el proceso de diseño de cada entregable. *De antemano me disculpo por mi letra y gráficos* :sweat_smile:
+> Nota: En algunos directorios puede que haya algunos archivos PDF provenientes de mi Tablet (dispositivo donde tomo apuntes) estos serán incluidos si condero necesario para realizar anotaciones o desarrolos más explicitos y dejar mejor explicado el tema o el el proceso de diseño de cada entregable. *De antemano me disculpo por mi letra y gráficos* :sweat_smile:
 
 
 

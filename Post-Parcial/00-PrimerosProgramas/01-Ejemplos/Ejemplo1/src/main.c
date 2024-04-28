@@ -41,9 +41,9 @@ void app_main() { //función principal app_main, que es el punto de entrada para
 
     while(1) { //Definimos un blucle infinito (como el loop de arduino)
         gpio_set_level(GPIO_LED, 1); //Usamos esta función para cambiar el estado de un pin (pin, estado)
-        vTaskDelay(100 / portTICK_PERIOD_MS); // Aplicamos un delay (paro en el programa) (cantidad / unidades)
+        vTaskDelay(500 / portTICK_PERIOD_MS); // Aplicamos un delay (paro en el programa) (cantidad / unidades)
         gpio_set_level(GPIO_LED, 0);
-        vTaskDelay(100 / portTICK_PERIOD_MS);
+        vTaskDelay(500 / portTICK_PERIOD_MS);
     }
 
 }

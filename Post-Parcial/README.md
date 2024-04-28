@@ -4,17 +4,19 @@
 
 ![Imagen ilustrativa](https://blogs.masterhacks.net/wp-content/uploads/2018/10/masterhacks_chips_espias_supermicro.png)
 
-La segunda mitad de la asignatura está enfocada principalmente en **microcontroladores**. El microcontrolador "rey de la asignatura" será el ESP32, sobre este desarrollaremos software para implementar en hardware. Programaremos en C y Arduino, para proximamente implementar en cirucitos haciendo uso desde led hasta sensores y motores.
+La segunda mitad de la asignatura está enfocada principalmente en **microcontroladores**. El microcontrolador "rey de la asignatura" será el ESP32, sobre este desarrollaremos software para implementar en hardware. Programaremos en C y Arduino, para proximamente implementar en cirucitos haciendo uso desde led's hasta sensores y motores.
 
 ## Requisitos Previos
 
 - **Visual Studio Code:** Visual Studio Code es un editor de código fuente desarrollado por Microsoft para Windows, Linux, macOS y Web. Este será nuestro editor de código en esta parte de la asignatura. Puedes descargarlo directamente desde su [sitio oficial](https://code.visualstudio.com/download).
     - PlatformIO: es una IDE abierta de programación para C/C++, orientado al hardware. ¿Qué es una IDE? Es una sigla y acrónimo en inglés de integrated development environment, en español es un conjunto de herramientas para desarrollo (programación) generalmente agrupadas en una misma interfaz gráfica. Este será el IDE que usaremos para programar el ESP32 tanto en C como en Arduino. Puedes decargarlo desde la interfaz de extensiones de Visual Studio Code. 
-    - ![Imagen VSCode Extension](https://i.ytimg.com/vi/JG-2fLCjy6s/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLBKRnc_vetOtNj1sgzrLO4ieTOnSA)
-    - 
+  ![Imagen VSCode Extension](https://i.ytimg.com/vi/JG-2fLCjy6s/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLBKRnc_vetOtNj1sgzrLO4ieTOnSA)
+  
 - **Driver:** Según mi experiencia algunos equipos pueden tener problemas para reconocer el ESP32. Esto puedes verlo accediendo al administrador de dispositivos e identificando un simbolo de exclamación sobre un dispositivo USB.
-  - ![imagen no reconocimiento](https://images.imyfone.com/imyfonees/assets/article/recover-pc-data/update-usb-drive.jpg)
-Si ese llega a ser tu caso, puedes descargar el driver desde [Este enlace](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads) Te recomiendo la versión "Universal Windows Driver". E instalarlo dandole a "actualizar controlador" y buscando la carpeta donde descargaste el controlador.
+  ![imagen no reconocimiento](https://images.imyfone.com/imyfonees/assets/article/recover-pc-data/update-usb-drive.jpg)
+  Si ese llega a ser tu caso, puedes descargar el driver desde [Este enlace](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads) Te recomiendo la versión "Universal Windows Driver" (Si estas trabajando desde Windows). E instalarlo dandole a "actualizar controlador" y buscando la carpeta donde descargaste el controlador.
+- **Proteus:** Proteus es el programa con el que se realizarán algunas simulaciones de los circuitos electrónicos, procedimiento el cual siempre es recomendado antes de montar directaremente los componentes.
+- **KiCad8:** Este es mi programa preferido para realizar esquematicos y migrarlos a PCB, y por esta razón lo usaré para realizar los esquematicos que considere necesarios (En la asignatura no se aborda directamente el diseño de PCB ni el uso de este software, esto es puramente elección personal). Puedes descargarlo desde su [página oficial](https://www.kicad.org/download/).
 
 ## Conceptos 
 
