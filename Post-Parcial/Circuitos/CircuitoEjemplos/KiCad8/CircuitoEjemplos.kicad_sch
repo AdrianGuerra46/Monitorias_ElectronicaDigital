@@ -2290,7 +2290,7 @@
 			)
 		)
 	)
-	(global_label "GPIO16"
+	(global_label "GPIO5"
 		(shape input)
 		(at 166.37 70.358 180)
 		(fields_autoplaced yes)
@@ -2302,7 +2302,7 @@
 		)
 		(uuid "912a89b3-6f3c-43a1-be6f-b28f8da0a431")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.4905 70.358 0)
+			(at 157.7 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2598,7 @@
 			)
 		)
 	)
-	(global_label "GPIO17"
+	(global_label "GPIO18"
 		(shape input)
 		(at 166.624 78.486 180)
 		(fields_autoplaced yes)
