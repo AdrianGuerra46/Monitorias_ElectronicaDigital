@@ -5,7 +5,7 @@
 ![Imagen Representativa](https://sanfrancisco.utn.edu.ar/electronica/img/grupos-investigacion/electronica-4.jpg)
 
 
-En el semestre 2024-1 Seré el monitor (también conocido como asistente de docencia) de electrónica digital, asignatura de Séptimo semestre de Ingeniería Mecatrónica en la Universidad EIA. 
+Seré el monitor (también conocido como asistente de docencia) de electrónica digital, asignatura de Séptimo semestre de Ingeniería Mecatrónica en la Universidad EIA. 
 
 Mi responsabilidad directa será dar asesoria a los estudiantes en los eventos calificables los cuales son: exámenes (dos(2) quices, parcial y final) y los 3 últimos de los 4 laboratorios de la asignatura (no ayudaré de manera directa en el laboratorio 1 por solicitud del docente) aún asi, daré apoyo extra a los estudiantes si es necesario.  
 
