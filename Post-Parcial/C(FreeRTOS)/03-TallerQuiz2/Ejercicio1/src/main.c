@@ -22,7 +22,7 @@ static void init_hw(void){
         .timer_num = LEDC_TIMER_0,
         .clk_cfg = LEDC_AUTO_CLK,
     };
-
+    
     ledc_timer_config (&ledc_timer);
 
     ledc_channel.channel = LEDC_CHANNEL_0;
