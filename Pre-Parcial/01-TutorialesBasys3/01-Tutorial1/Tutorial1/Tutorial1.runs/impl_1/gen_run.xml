@@ -4,67 +4,60 @@
   <File Type="PA-TCL" Name="Tutorial1.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="Tutorial1_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="Tutorial1_reports.tcl"/>
-  <File Type="OPT-RQA-PB" Name="Tutorial1_rqa_opted.pb"/>
+  <File Type="BITSTR-MSK" Name="Tutorial1.msk"/>
+  <File Type="ROUTE-CLK" Name="Tutorial1_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Tutorial1.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Tutorial1_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Tutorial1.bit"/>
+  <File Type="BG-DRC" Name="Tutorial1.drc"/>
+  <File Type="BG-BGN" Name="Tutorial1.bgn"/>
+  <File Type="BG-BIN" Name="Tutorial1.bin"/>
+  <File Type="BITSTR-RBT" Name="Tutorial1.rbt"/>
+  <File Type="BITSTR-NKY" Name="Tutorial1.nky"/>
+  <File Type="BITSTR-BMM" Name="Tutorial1_bd.bmm"/>
   <File Type="BITSTR-MMI" Name="Tutorial1.mmi"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="Tutorial1_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="Tutorial1_timing_summary_init.rpt"/>
-  <File Type="OPT-TIMING" Name="Tutorial1_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="Tutorial1_opt.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Tutorial1_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="Tutorial1.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Tutorial1.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="OPT-DRC" Name="Tutorial1_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="Tutorial1.hwdef"/>
-  <File Type="PWROPT-DCP" Name="Tutorial1_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="Tutorial1_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="Tutorial1_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="Tutorial1_placed.dcp"/>
   <File Type="PLACE-IO" Name="Tutorial1_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="Tutorial1_clock_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="Tutorial1_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="Tutorial1_utilization_placed.pb"/>
   <File Type="PLACE-CTRL" Name="Tutorial1_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="Tutorial1_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="Tutorial1_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BIN" Name="Tutorial1.bin"/>
-  <File Type="PLACE-TIMING" Name="Tutorial1_timing_summary_placed.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="Tutorial1_power_routed.rpx"/>
-  <File Type="PLACE-RQA-PB" Name="Tutorial1_rqa_placed.pb"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="Tutorial1_postplace_pwropt.dcp"/>
-  <File Type="BITSTR-MSK" Name="Tutorial1.msk"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="Tutorial1_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="Tutorial1_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="Tutorial1_drc_physopted.rpt"/>
-  <File Type="BITSTR-RBT" Name="Tutorial1.rbt"/>
-  <File Type="PHYSOPT-TIMING" Name="Tutorial1_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="Tutorial1_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="Tutorial1_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="Tutorial1_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="Tutorial1_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="Tutorial1_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="Tutorial1_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="Tutorial1_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Tutorial1_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Tutorial1_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-RQS-PB" Name="Tutorial1_rqs_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Tutorial1_power_routed.rpx"/>
   <File Type="ROUTE-STATUS" Name="Tutorial1_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="Tutorial1_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="Tutorial1_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Tutorial1_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Tutorial1_routed_bb.dcp"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="Tutorial1_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="Tutorial1_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="Tutorial1_timing_summary_routed.rpx"/>
   <File Type="ROUTE-SIMILARITY" Name="Tutorial1_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="Tutorial1_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW" Name="Tutorial1_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="Tutorial1_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="Tutorial1_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="Tutorial1_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="Tutorial1_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="Tutorial1_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Tutorial1_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Tutorial1_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="Tutorial1_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Tutorial1_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Tutorial1_timing_summary_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Tutorial1_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Tutorial1_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Tutorial1_bus_skew_postroute_physopted.rpt"/>
-  <File Type="BG-BIT" Name="Tutorial1.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Tutorial1_bus_skew_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Tutorial1_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-NKY" Name="Tutorial1.nky"/>
-  <File Type="BITSTR-BMM" Name="Tutorial1_bd.bmm"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Tutorial1_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Tutorial1_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Tutorial1_methodology_drc_routed.rpx"/>
   <File Type="PDI-FILE" Name="Tutorial1.pdi"/>
   <File Type="BOOT-PDI-FILE" Name="Tutorial1_boot.pdi"/>
   <File Type="PL-PDI-FILE" Name="Tutorial1_pld.pdi"/>
@@ -73,13 +66,6 @@
   <File Type="RNPI_FILE" Name="Tutorial1.rnpi"/>
   <File Type="NPI_FILE" Name="Tutorial1.npi"/>
   <File Type="RBD_FILE" Name="Tutorial1.rbd"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="Tutorial1.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="Tutorial1.sysdef"/>
-  <File Type="BG-BGN" Name="Tutorial1.bgn"/>
-  <File Type="BG-DRC" Name="Tutorial1.drc"/>
-  <File Type="RDI-RDI" Name="Tutorial1.vdi"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="ROUTE-RQS" Name="Tutorial1_routed.rqs"/>
   <File Type="POSTROUTE-PHYSOPT-RQS" Name="Tutorial1_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
@@ -125,9 +111,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>
@@ -137,5 +121,6 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>
