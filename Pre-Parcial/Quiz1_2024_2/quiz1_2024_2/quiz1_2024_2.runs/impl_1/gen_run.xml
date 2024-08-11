@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35ticpg236-1L" LaunchTime="1723409163">
+  <File Type="ROUTE-PWR" Name="Quiz1_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Quiz1.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Quiz1_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Quiz1_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="Quiz1_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="Quiz1.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Quiz1_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Quiz1_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="Quiz1_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Quiz1_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Quiz1_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Quiz1.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Quiz1_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Quiz1_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Quiz1_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Quiz1_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Quiz1_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Quiz1_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Quiz1_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Quiz1_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Quiz1_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Quiz1_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Quiz1_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="Quiz1.bin"/>
+  <File Type="PLACE-TIMING" Name="Quiz1_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Quiz1_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="Quiz1_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Quiz1_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Quiz1.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Quiz1_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Quiz1_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Quiz1_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="Quiz1.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="Quiz1_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Quiz1_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Quiz1_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Quiz1_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Quiz1_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Quiz1_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Quiz1_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Quiz1_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Quiz1_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Quiz1_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="Quiz1_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="Quiz1_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Quiz1_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Quiz1_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Quiz1_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Quiz1_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Quiz1_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Quiz1_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Quiz1_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Quiz1_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Quiz1_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Quiz1_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Quiz1_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Quiz1_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Quiz1_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Quiz1_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Quiz1_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="Quiz1.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Quiz1_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Quiz1_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="Quiz1.nky"/>
+  <File Type="BITSTR-BMM" Name="Quiz1_bd.bmm"/>
+  <File Type="PDI-FILE" Name="Quiz1.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="Quiz1_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="Quiz1_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="Quiz1.rcfi"/>
+  <File Type="CFI_FILE" Name="Quiz1.cfi"/>
+  <File Type="RNPI_FILE" Name="Quiz1.rnpi"/>
+  <File Type="NPI_FILE" Name="Quiz1.npi"/>
+  <File Type="RBD_FILE" Name="Quiz1.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Quiz1.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Quiz1.sysdef"/>
+  <File Type="BG-BGN" Name="Quiz1.bgn"/>
+  <File Type="BG-DRC" Name="Quiz1.drc"/>
+  <File Type="RDI-RDI" Name="Quiz1.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="Quiz1_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Quiz1_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Quiz1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Quiz1"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/XDC.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/Quiz1.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
