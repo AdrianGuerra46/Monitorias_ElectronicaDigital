@@ -1,9 +1,9 @@
 
 
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.NUMERIC_STD.ALL;
-use IEEE.STD_LOGIC_UNSIGNED.ALL;
+library IEEE; -- Libreria Standar IEEE
+use IEEE.STD_LOGIC_1164.ALL; -- Prmite usar "stg_logic" y "stg_logic_vector"
+use IEEE.NUMERIC_STD.ALL; -- Tipos de datos signed y unsigned 
+use IEEE.STD_LOGIC_UNSIGNED.ALL; -- Operaciones aritmeticas con vectores lógicos
 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
@@ -53,6 +53,7 @@ signal a2 :std_logic_vector (3 downto 0); --Segundo Aleatorio (4bits)
 signal a3 :std_logic_vector (3 downto 0); --Salida Count4Bits
 signal ro1 :std_logic; -- Reloj 10KHz
 signal ro2 : std_logic; -- Reloj 20 Hz
+
 begin
 
 B1: relojes PORT MAP(R100,ro1,ro2);

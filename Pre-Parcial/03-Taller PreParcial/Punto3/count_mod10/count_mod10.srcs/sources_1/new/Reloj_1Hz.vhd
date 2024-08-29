@@ -31,6 +31,6 @@ process (RBasys)
            end if;
            end if;
            end process;
-          R1Hz<=x;
+R1Hz<=x;
 
 end Behavioral;
