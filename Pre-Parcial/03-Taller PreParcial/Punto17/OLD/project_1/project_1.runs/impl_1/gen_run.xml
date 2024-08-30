@@ -18,16 +18,21 @@
   <File Type="BITSTR-MMI" Name="TOP.mmi"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="TOP_methodology_drc_routed.rpt"/>
   <File Type="BITSTR-SYSDEF" Name="TOP.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="TOP_methodology_drc_routed.pb"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="TOP.ltx"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="NPI_FILE" Name="TOP.npi"/>
   <File Type="OPT-DRC" Name="TOP_drc_opted.rpt"/>
+  <File Type="RBD_FILE" Name="TOP.rbd"/>
   <File Type="OPT-HWDEF" Name="TOP.hwdef"/>
   <File Type="PLACE-IO" Name="TOP_io_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="TOP_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="TOP_utilization_placed.pb"/>
   <File Type="PLACE-CTRL" Name="TOP_control_sets_placed.rpt"/>
+  <File Type="ROUTE-RQS" Name="TOP_routed.rqs"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="TOP_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="TOP_postroute_physopted.rqs"/>
   <File Type="ROUTE-DRC" Name="TOP_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="TOP_drc_routed.pb"/>
   <File Type="ROUTE-PWR-RPX" Name="TOP_power_routed.rpx"/>
@@ -55,17 +60,12 @@
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="TOP_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="TOP_bus_skew_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="TOP_bus_skew_postroute_physopted.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="TOP_methodology_drc_routed.pb"/>
   <File Type="ROUTE-DRC-RPX" Name="TOP_drc_routed.rpx"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="TOP_methodology_drc_routed.rpx"/>
   <File Type="PDI-FILE" Name="TOP.pdi"/>
   <File Type="RCFI_FILE" Name="TOP.rcfi"/>
   <File Type="CFI_FILE" Name="TOP.cfi"/>
   <File Type="RNPI_FILE" Name="TOP.rnpi"/>
-  <File Type="NPI_FILE" Name="TOP.npi"/>
-  <File Type="RBD_FILE" Name="TOP.rbd"/>
-  <File Type="ROUTE-RQS" Name="TOP_routed.rqs"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="TOP_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">

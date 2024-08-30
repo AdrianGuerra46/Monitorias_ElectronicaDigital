@@ -26,11 +26,11 @@ process (RBasys)
         if rising_edge (RBasys) then
             t<=t+1;
             if (t=49999999)then
-            t<=0;
-            x<=not(x);
-           end if;
-           end if;
-           end process;
+                t<=0;
+                x<=not(x);
+            end if;
+        end if;
+end process;
 R1Hz<=x;
 
 end Behavioral;

@@ -1,6 +1,6 @@
 -------------------------------------
 | Tool Version : Vivado v.2024.1
-| Date         : Wed Aug 28 19:43:28 2024
+| Date         : Thu Aug 29 22:30:48 2024
 | Host         : AG-Predator
 | Design       : design_1
 | Device       : xc7a35ti-cpg236-1L-I-

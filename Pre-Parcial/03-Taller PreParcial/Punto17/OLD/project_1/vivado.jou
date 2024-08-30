@@ -1,16 +1,38 @@
 #-----------------------------------------------------------
-# Vivado v2023.2 (64-bit)
-# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
-# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
-# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Mon Mar 18 21:45:14 2024
-# Process ID: 2276
-# Current directory: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/project_1
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14324 C:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto17\Ruleta\project_1\project_1.xpr
-# Log file: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/project_1/vivado.log
-# Journal file: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/project_1\vivado.jou
-# Running On: aguerra, OS: Windows, CPU Frequency: 2296 MHz, CPU Physical cores: 8, Host memory: 7448 MB
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Aug 29 19:24:50 2024
+# Process ID: 3036
+# Current directory: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/OLD/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7476 D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto17\OLD\project_1\project_1.xpr
+# Log file: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/OLD/project_1/vivado.log
+# Journal file: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/OLD/project_1\vivado.jou
+# Running On        :AG-Predator
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+# CPU Frequency     :2592 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :17011 MB
+# Swap memory       :11811 MB
+# Total Virtual     :28822 MB
+# Available Virtual :17631 MB
 #-----------------------------------------------------------
 start_gui
-open_project {C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/project_1/project_1.xpr}
+open_project {D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/OLD/project_1/project_1.xpr}
 update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/OLD/project_1/project_1.runs/impl_1/TOP.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/OLD/project_1/project_1.runs/impl_1/TOP.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager

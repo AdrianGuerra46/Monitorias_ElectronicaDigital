@@ -3,78 +3,85 @@
     with args -log compleA2_4bits.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source compleA2_4bits.tcl
 
 
-ECHO está desactivado.
-ECHO está desactivado.
 
-****** Vivado v2023.2 (64-bit)
-  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
-  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
-  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Thu Aug 29 15:25:51 2024
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source compleA2_4bits.tcl -notrace
-create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 476.406 ; gain = 180.605
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 513.223 ; gain = 195.344
+Command: read_checkpoint -auto_incremental -incremental {D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/compleA2_4bits.srcs/utils_1/imports/synth_1/compleA2_4bits.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/compleA2_4bits.srcs/utils_1/imports/synth_1/compleA2_4bits.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
 Command: synth_design -top compleA2_4bits -part xc7a35ticpg236-1L
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+WARNING: [Vivado_Tcl 4-1809] The reference checkpoint is from an old version of Vivado; A full resynthesis flow will be run
 INFO: [Device 21-403] Loading part xc7a35ticpg236-1L
+INFO: [Device 21-9227] Part: xc7a35ticpg236-1L does not have CEAM library.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 9404
+INFO: [Synth 8-7075] Helper process launched with PID 27416
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1305.711 ; gain = 438.645
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 1367.914 ; gain = 449.195
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'compleA2_4bits' [C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/compleA2_4bits.srcs/sources_1/new/compleA2_4bits.vhd:15]
-INFO: [Synth 8-256] done synthesizing module 'compleA2_4bits' (0#1) [C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/compleA2_4bits.srcs/sources_1/new/compleA2_4bits.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'compleA2_4bits' [D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/compleA2_4bits.srcs/sources_1/new/compleA2_4bits.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'compleA2_4bits' (0#1) [D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/compleA2_4bits.srcs/sources_1/new/compleA2_4bits.vhd:13]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1412.176 ; gain = 545.109
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 1476.980 ; gain = 558.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1412.176 ; gain = 545.109
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 1476.980 ; gain = 558.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1412.176 ; gain = 545.109
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 1476.980 ; gain = 558.262
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1412.176 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1476.980 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/compleA2_4bits.srcs/constrs_1/new/XDC.xdc]
-Finished Parsing XDC File [C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/compleA2_4bits.srcs/constrs_1/new/XDC.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/compleA2_4bits.srcs/constrs_1/new/XDC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/compleA2_4bits_propImpl.xdc].
+Parsing XDC File [D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/compleA2_4bits.srcs/constrs_1/new/XDC.xdc]
+Finished Parsing XDC File [D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/compleA2_4bits.srcs/constrs_1/new/XDC.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/compleA2_4bits.srcs/constrs_1/new/XDC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/compleA2_4bits_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/compleA2_4bits_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1412.176 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1498.719 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Acceso denegado.
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1412.176 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1498.719 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 1412.176 ; gain = 545.109
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:29 . Memory (MB): peak = 1498.719 ; gain = 580.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35ticpg236-1L
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 1412.176 ; gain = 545.109
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:30 . Memory (MB): peak = 1498.719 ; gain = 580.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 1412.176 ; gain = 545.109
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:30 . Memory (MB): peak = 1498.719 ; gain = 580.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:38 . Memory (MB): peak = 1412.176 ; gain = 545.109
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:30 . Memory (MB): peak = 1498.719 ; gain = 580.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -97,25 +104,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:41 . Memory (MB): peak = 1412.176 ; gain = 545.109
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:33 . Memory (MB): peak = 1498.719 ; gain = 580.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:00:54 . Memory (MB): peak = 1412.176 ; gain = 545.109
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:43 . Memory (MB): peak = 1498.719 ; gain = 580.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:54 . Memory (MB): peak = 1412.176 ; gain = 545.109
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:43 . Memory (MB): peak = 1498.719 ; gain = 580.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:00:54 . Memory (MB): peak = 1412.176 ; gain = 545.109
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:43 . Memory (MB): peak = 1498.719 ; gain = 580.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -133,37 +140,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:56 ; elapsed = 00:01:09 . Memory (MB): peak = 1412.176 ; gain = 545.109
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:52 . Memory (MB): peak = 1498.719 ; gain = 580.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:56 ; elapsed = 00:01:09 . Memory (MB): peak = 1412.176 ; gain = 545.109
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:52 . Memory (MB): peak = 1498.719 ; gain = 580.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:56 ; elapsed = 00:01:09 . Memory (MB): peak = 1412.176 ; gain = 545.109
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:52 . Memory (MB): peak = 1498.719 ; gain = 580.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:56 ; elapsed = 00:01:09 . Memory (MB): peak = 1412.176 ; gain = 545.109
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:52 . Memory (MB): peak = 1498.719 ; gain = 580.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:56 ; elapsed = 00:01:09 . Memory (MB): peak = 1412.176 ; gain = 545.109
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:52 . Memory (MB): peak = 1498.719 ; gain = 580.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:56 ; elapsed = 00:01:09 . Memory (MB): peak = 1412.176 ; gain = 545.109
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:52 . Memory (MB): peak = 1498.719 ; gain = 580.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -186,26 +193,25 @@ Report Cell Usage:
 |5     |OBUF |     4|
 +------+-----+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:56 ; elapsed = 00:01:09 . Memory (MB): peak = 1412.176 ; gain = 545.109
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:52 . Memory (MB): peak = 1498.719 ; gain = 580.000
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:39 ; elapsed = 00:01:05 . Memory (MB): peak = 1412.176 ; gain = 545.109
-Synthesis Optimization Complete : Time (s): cpu = 00:00:57 ; elapsed = 00:01:09 . Memory (MB): peak = 1412.176 ; gain = 545.109
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:48 . Memory (MB): peak = 1498.719 ; gain = 558.262
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:52 . Memory (MB): peak = 1498.719 ; gain = 580.000
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1412.176 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1498.719 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1417.258 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1498.719 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Acceso denegado.
 Synth Design complete | Checksum: c33aa811
 INFO: [Common 17-83] Releasing license: Synthesis
-15 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+22 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:04 ; elapsed = 00:01:39 . Memory (MB): peak = 1417.258 ; gain = 940.852
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1417.258 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/compleA2_4bits.runs/synth_1/compleA2_4bits.dcp' has been generated.
-INFO: [runtcl-4] Executing : report_utilization -file compleA2_4bits_utilization_synth.rpt -pb compleA2_4bits_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Mar 18 15:33:12 2024...
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:01:14 . Memory (MB): peak = 1498.719 ; gain = 980.758
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1498.719 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/compleA2_4bits.runs/synth_1/compleA2_4bits.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file compleA2_4bits_utilization_synth.rpt -pb compleA2_4bits_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 29 15:27:22 2024...

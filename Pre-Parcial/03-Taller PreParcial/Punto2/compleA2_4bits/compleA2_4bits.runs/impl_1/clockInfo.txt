@@ -1,7 +1,7 @@
 -------------------------------------
-| Tool Version : Vivado v.2023.2
-| Date         : Mon Mar 18 15:34:52 2024
-| Host         : aguerra
+| Tool Version : Vivado v.2024.1
+| Date         : Thu Aug 29 15:28:29 2024
+| Host         : AG-Predator
 | Design       : design_1
 | Device       : xc7a35ti-cpg236-1L-I-
 -------------------------------------

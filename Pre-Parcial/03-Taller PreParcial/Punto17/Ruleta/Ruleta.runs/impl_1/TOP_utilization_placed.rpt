@@ -1,8 +1,8 @@
-Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date         : Tue Mar 19 18:03:51 2024
-| Host         : aguerra running 64-bit major release  (build 9200)
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Thu Aug 29 20:31:38 2024
+| Host         : AG-Predator running 64-bit major release  (build 9200)
 | Command      : report_utilization -file TOP_utilization_placed.rpt -pb TOP_utilization_placed.pb
 | Design       : TOP
 | Device       : xc7a35ticpg236-1L
@@ -73,9 +73,18 @@ Table of Contents
 |   SLICEL                                 |    0 |     0 |            |           |       |
 |   SLICEM                                 |    0 |     0 |            |           |       |
 | LUT as Logic                             |    0 |     0 |          0 |     20800 |  0.00 |
+|   using O5 output only                   |    0 |       |            |           |       |
+|   using O6 output only                   |    0 |       |            |           |       |
+|   using O5 and O6                        |    0 |       |            |           |       |
 | LUT as Memory                            |    0 |     0 |          0 |      9600 |  0.00 |
 |   LUT as Distributed RAM                 |    0 |     0 |            |           |       |
+|     using O5 output only                 |    0 |       |            |           |       |
+|     using O6 output only                 |    0 |       |            |           |       |
+|     using O5 and O6                      |    0 |       |            |           |       |
 |   LUT as Shift Register                  |    0 |     0 |            |           |       |
+|     using O5 output only                 |    0 |       |            |           |       |
+|     using O6 output only                 |    0 |       |            |           |       |
+|     using O5 and O6                      |    0 |       |            |           |       |
 | Slice Registers                          |    0 |     0 |          0 |     41600 |  0.00 |
 |   Register driven from within the Slice  |    0 |       |            |           |       |
 |   Register driven from outside the Slice |    0 |       |            |           |       |

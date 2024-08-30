@@ -19,8 +19,8 @@ begin
     process(Rel, B)
         begin 
             if ((rising_edge (Rel)) AND (B = '1')) then 
-                Ale2 <= Ale2 + 1; 
-                Ale4 <= Ale4 + 1;
+                Ale2 <= std_logic_vector(unsigned(Ale2) + 1); 
+                Ale4 <= std_logic_vector(unsigned(Ale4) + 1);
             end if; 
      end process;
      

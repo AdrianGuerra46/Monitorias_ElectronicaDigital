@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version              : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-| Date                      : Wed Aug 28 19:43:30 2024
+| Date                      : Thu Aug 29 22:30:50 2024
 | Host                      : AG-Predator running 64-bit major release  (build 9200)
 | Command                   : report_io -file TOP_io_placed.rpt
 | Design                    : TOP
@@ -250,8 +250,8 @@ Table of Contents
 | V13        |             | High Range | IO_L24P_T3_A01_D17_14        | User IO       |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | V14        |             | High Range | IO_L24N_T3_A00_D16_14        | User IO       |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | V15        |             | High Range | IO_L21P_T3_DQS_14            | User IO       |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
-| V16        | Down        | High Range | IO_L19P_T3_A10_D26_14        | INPUT         | LVCMOS33    |      14 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
-| V17        | Up          | High Range | IO_L19N_T3_A09_D25_VREF_14   | INPUT         | LVCMOS33    |      14 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
+| V16        | Up          | High Range | IO_L19P_T3_A10_D26_14        | INPUT         | LVCMOS33    |      14 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
+| V17        | Down        | High Range | IO_L19N_T3_A09_D25_VREF_14   | INPUT         | LVCMOS33    |      14 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | V18        |             |            | GND                          | GND           |             |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |              |                   |              |
 | V19        | LED[3]      | High Range | IO_L15N_T2_DQS_DOUT_CSO_B_14 | OUTPUT        | LVCMOS33    |      14 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | W1         |             |            | GND                          | GND           |             |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |              |                   |              |

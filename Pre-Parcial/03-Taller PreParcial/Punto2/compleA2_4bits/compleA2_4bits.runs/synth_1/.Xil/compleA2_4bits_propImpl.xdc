@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:{C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/compleA2_4bits.srcs/constrs_1/new/XDC.xdc} rfile:../../../compleA2_4bits.srcs/constrs_1/new/XDC.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:{D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/compleA2_4bits.srcs/constrs_1/new/XDC.xdc} rfile:../../../compleA2_4bits.srcs/constrs_1/new/XDC.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN V17 [get_ports {I[0]}]
 set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]

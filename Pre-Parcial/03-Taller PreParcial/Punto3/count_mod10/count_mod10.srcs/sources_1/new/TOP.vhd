@@ -29,6 +29,7 @@ component CountMod10 is
 end component;
 
 signal aux :std_logic; --auxiliar
+
 begin 
 
 B1: Reloj_1Hz PORT MAP(RBasys,aux);

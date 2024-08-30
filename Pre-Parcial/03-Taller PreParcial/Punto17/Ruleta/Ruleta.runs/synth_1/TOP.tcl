@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.runs/synth_1/TOP.tcl"
+  variable script "D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.runs/synth_1/TOP.tcl"
   variable category "vivado_synth"
 }
 
@@ -55,41 +55,29 @@ if {$::dispatch::connected} {
   }
 }
 
-proc create_report { reportName command } {
-  set status "."
-  append status $reportName ".fail"
-  if { [file exists $status] } {
-    eval file delete [glob $status]
-  }
-  send_msg_id runtcl-4 info "Executing : $command"
-  set retval [eval catch { $command } msg]
-  if { $retval != 0 } {
-    set fp [open $status w]
-    close $fp
-    send_msg_id runtcl-5 warning "$msg"
-  }
-}
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 3
+set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35ticpg236-1L
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir {C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.cache/wt} [current_project]
-set_property parent.project_path {C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.xpr} [current_project]
+set_property webtalk.parent_dir {D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.cache/wt} [current_project]
+set_property parent.project_path {D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.xpr} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
-set_property ip_output_repo {c:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.cache/ip} [current_project]
+set_property ip_output_repo {d:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
-  {C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.srcs/sources_1/new/Aleatorio.vhd}
-  {C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.srcs/sources_1/new/Count4Bits.vhd}
-  {C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.srcs/sources_1/new/Deco4_16.vhd}
-  {C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.srcs/sources_1/new/Relojes.vhd}
-  {C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.srcs/sources_1/new/TOP.vhd}
+  {D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.srcs/sources_1/new/Aleatorio.vhd}
+  {D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.srcs/sources_1/new/Count4Bits.vhd}
+  {D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.srcs/sources_1/new/Deco4_16.vhd}
+  {D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.srcs/sources_1/new/Relojes.vhd}
+  {D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.srcs/sources_1/new/TOP.vhd}
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -100,12 +88,12 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc {{C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.srcs/constrs_1/new/XDC.xdc}}
-set_property used_in_implementation false [get_files {{C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.srcs/constrs_1/new/XDC.xdc}}]
+read_xdc {{D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.srcs/constrs_1/new/XDC.xdc}}
+set_property used_in_implementation false [get_files {{D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.srcs/constrs_1/new/XDC.xdc}}]
 
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental {C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.srcs/utils_1/imports/synth_1/TOP.dcp}
+read_checkpoint -auto_incremental -incremental {D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.srcs/utils_1/imports/synth_1/TOP.dcp}
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
@@ -122,7 +110,7 @@ set_param constraints.enableBinaryConstraints false
 write_checkpoint -force -noxdef TOP.dcp
 OPTRACE "write_checkpoint" END { }
 OPTRACE "synth reports" START { REPORT }
-create_report "synth_1_synth_report_utilization_0" "report_utilization -file TOP_utilization_synth.rpt -pb TOP_utilization_synth.pb"
+generate_parallel_reports -reports { "report_utilization -file TOP_utilization_synth.rpt -pb TOP_utilization_synth.pb"  } 
 OPTRACE "synth reports" END { }
 file delete __synthesis_is_running__
 close [open __synthesis_is_complete__ w]

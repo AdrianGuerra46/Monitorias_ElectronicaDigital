@@ -3,10 +3,10 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Wed Aug 28 19:57:58 2024
-# Process ID: 28148
+# Start of session at: Thu Aug 29 20:58:57 2024
+# Process ID: 20568
 # Current directory: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21904 D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24260 D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.xpr
 # Log file: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/vivado.log
 # Journal file: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10\vivado.jou
 # Running On        :AG-Predator
@@ -17,9 +17,9 @@
 # CPU Physical cores:6
 # CPU Logical cores :12
 # Host memory       :17011 MB
-# Swap memory       :13490 MB
-# Total Virtual     :30501 MB
-# Available Virtual :6172 MB
+# Swap memory       :11811 MB
+# Total Virtual     :28822 MB
+# Available Virtual :15434 MB
 #-----------------------------------------------------------
 start_gui
 open_project {D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.xpr}
@@ -93,7 +93,107 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Software/Vivado/Vivado/2024.1/data/ip'.
-open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1651.520 ; gain = 537.820
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:17 . Memory (MB): peak = 1633.219 ; gain = 143.566
 update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\TOP.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\CountMod10.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\TOP.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\TOP.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\TOP.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\CountMod10.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\TOP.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\TOP.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.srcs/utils_1/imports/synth_1/TOP.dcp with file D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.runs/synth_1/TOP.dcp
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\TOP.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\CountMod10.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\TOP.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\TOP.vhd:]
+launch_runs synth_1 -jobs 6
+[Thu Aug 29 21:22:43 2024] Launched synth_1...
+Run output will be captured here: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.runs/synth_1/runme.log
+ERROR: [Common 17-180] Spawn failed: No error
+launch_runs impl_1 -jobs 6
+[Thu Aug 29 22:11:37 2024] Launched impl_1...
+Run output will be captured here: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Thu Aug 29 22:14:08 2024] Launched impl_1...
+Run output will be captured here: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2024.1.0
+  **** Build date : Mar  6 2024 at 20:50:54
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2024.1.0
+  ****** Build date   : Mar 08 2024-19:00:37
+    **** Build number : 2024.1.1709942437
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1633.219 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A57F46A
+set_property PROGRAM.FILE {D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.runs/impl_1/TOP.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.runs/impl_1/TOP.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\TOP.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\CountMod10.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\TOP.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\TOP.vhd:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.srcs/utils_1/imports/synth_1/TOP.dcp with file D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.runs/synth_1/TOP.dcp
+ERROR: [Common 17-180] Spawn failed: No error
+launch_runs synth_1 -jobs 6
+[Thu Aug 29 22:28:01 2024] Launched synth_1...
+Run output will be captured here: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\TOP.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\CountMod10.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\TOP.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\TOP.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs synth_1 -jobs 6
+[Thu Aug 29 22:28:09 2024] Launched synth_1...
+Run output will be captured here: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Thu Aug 29 22:29:44 2024] Launched impl_1...
+Run output will be captured here: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Thu Aug 29 22:32:28 2024] Launched impl_1...
+Run output will be captured here: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.runs/impl_1/TOP.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A57F46A
 exit
-INFO: [Common 17-206] Exiting Vivado at Wed Aug 28 19:59:15 2024...
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 29 23:19:52 2024...

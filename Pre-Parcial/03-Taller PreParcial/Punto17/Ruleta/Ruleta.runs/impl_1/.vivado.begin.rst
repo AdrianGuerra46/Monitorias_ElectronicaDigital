@@ -1,40 +1,30 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="guerr" Host="AGUERRA" Pid="10688" HostCore="8" HostMemory="07448702976">
+    <Process Command="vivado.bat" Owner="guerr" Host="AG-PREDATOR" Pid="11632" HostCore="12" HostMemory="017011298304">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="guerr" Host="AGUERRA" Pid="14012" HostCore="8" HostMemory="07448702976">
+    <Process Command="vivado.bat" Owner="guerr" Host="AG-PREDATOR" Pid="27220" HostCore="12" HostMemory="017011298304">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="guerr" Host="AGUERRA" Pid="12964" HostCore="8" HostMemory="07448702976">
+    <Process Command="vivado.bat" Owner="guerr" Host="AG-PREDATOR" Pid="25608" HostCore="12" HostMemory="017011298304">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="guerr" Host="AGUERRA" Pid="13552" HostCore="8" HostMemory="07448702976">
+    <Process Command="vivado.bat" Owner="guerr" Host="AG-PREDATOR" Pid="10784" HostCore="12" HostMemory="017011298304">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="guerr" Host="AGUERRA" Pid="14332" HostCore="8" HostMemory="07448702976">
+    <Process Command="vivado.bat" Owner="guerr" Host="AG-PREDATOR" Pid="20492" HostCore="12" HostMemory="017011298304">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="guerr" Host="AGUERRA" Pid="18828" HostCore="8" HostMemory="07448702976">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="guerr" Host="AGUERRA" Pid="5112" HostCore="8" HostMemory="07448702976">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="guerr" Host="AGUERRA" Pid="2772" HostCore="8" HostMemory="07448702976">
+    <Process Command="vivado.bat" Owner="guerr" Host="AG-PREDATOR" Pid="5208" HostCore="12" HostMemory="017011298304">
     </Process>
 </ProcessHandle>
