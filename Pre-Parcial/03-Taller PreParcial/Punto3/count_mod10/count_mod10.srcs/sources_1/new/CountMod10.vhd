@@ -18,7 +18,7 @@ begin
     process(R1)
     begin 
         if rising_edge(R1) then
-            if U = '1' then
+            if U = '1' then 
                 if count = 9 then
                     count <= 0;
                 else
