@@ -3,10 +3,10 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Thu Aug 29 20:58:57 2024
-# Process ID: 20568
+# Start of session at: Mon Sep  2 18:09:35 2024
+# Process ID: 21224
 # Current directory: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24260 D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27796 D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.xpr
 # Log file: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/vivado.log
 # Journal file: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10\vivado.jou
 # Running On        :AG-Predator
@@ -19,41 +19,8 @@
 # Host memory       :17011 MB
 # Swap memory       :11811 MB
 # Total Virtual     :28822 MB
-# Available Virtual :15434 MB
+# Available Virtual :13948 MB
 #-----------------------------------------------------------
 start_gui
 open_project {D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.xpr}
 update_compile_order -fileset sources_1
-reset_run synth_1
-launch_runs synth_1 -jobs 6
-wait_on_run synth_1
-launch_runs impl_1 -jobs 6
-wait_on_run impl_1
-launch_runs impl_1 -to_step write_bitstream -jobs 6
-wait_on_run impl_1
-open_hw_manager
-connect_hw_server -allow_non_jtag
-open_hw_target
-set_property PROGRAM.FILE {D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.runs/impl_1/TOP.bit} [get_hw_devices xc7a35t_0]
-current_hw_device [get_hw_devices xc7a35t_0]
-refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
-set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property PROGRAM.FILE {D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.runs/impl_1/TOP.bit} [get_hw_devices xc7a35t_0]
-program_hw_devices [get_hw_devices xc7a35t_0]
-refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
-reset_run synth_1
-launch_runs synth_1 -jobs 6
-wait_on_run synth_1
-reset_run synth_1
-launch_runs synth_1 -jobs 6
-wait_on_run synth_1
-launch_runs impl_1 -jobs 6
-wait_on_run impl_1
-launch_runs impl_1 -to_step write_bitstream -jobs 6
-wait_on_run impl_1
-set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
-set_property PROGRAM.FILE {D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.runs/impl_1/TOP.bit} [get_hw_devices xc7a35t_0]
-program_hw_devices [get_hw_devices xc7a35t_0]
-refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

@@ -3,10 +3,10 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Wed Aug 28 19:57:58 2024
-# Process ID: 28148
+# Start of session at: Mon Sep  2 17:54:59 2024
+# Process ID: 14704
 # Current directory: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21904 D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17744 D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.xpr
 # Log file: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/vivado.log
 # Journal file: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10\vivado.jou
 # Running On        :AG-Predator
@@ -17,9 +17,9 @@
 # CPU Physical cores:6
 # CPU Logical cores :12
 # Host memory       :17011 MB
-# Swap memory       :13490 MB
-# Total Virtual     :30501 MB
-# Available Virtual :6172 MB
+# Swap memory       :11811 MB
+# Total Virtual     :28822 MB
+# Available Virtual :13992 MB
 #-----------------------------------------------------------
 start_gui
 open_project {D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.xpr}
