@@ -3,6 +3,7 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+<<<<<<< HEAD
 # Start of session at: Fri Aug 30 08:17:40 2024
 # Process ID: 12296
 # Current directory: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10
@@ -20,6 +21,25 @@
 # Swap memory       :7247 MB
 # Total Virtual     :14696 MB
 # Available Virtual :5777 MB
+=======
+# Start of session at: Mon Sep  2 18:09:35 2024
+# Process ID: 21224
+# Current directory: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27796 D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.xpr
+# Log file: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/vivado.log
+# Journal file: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10\vivado.jou
+# Running On        :AG-Predator
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+# CPU Frequency     :2592 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :17011 MB
+# Swap memory       :11811 MB
+# Total Virtual     :28822 MB
+# Available Virtual :13948 MB
+>>>>>>> d0fb5a6c878d15f6b48ba7ca3a0d2e4318200dc2
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.xpr}
@@ -92,6 +112,7 @@ Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
+<<<<<<< HEAD
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Software/Vivado/Vivado/2024.1/data/ip'.
 open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1505.676 ; gain = 411.773
 update_compile_order -fileset sources_1
@@ -102,3 +123,10 @@ WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-f
 WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\CountMod10.vhd:]
 exit
 INFO: [Common 17-206] Exiting Vivado at Fri Aug 30 10:25:42 2024...
+=======
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Software/Vivado/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1532.562 ; gain = 409.383
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep  2 18:17:15 2024...
+>>>>>>> d0fb5a6c878d15f6b48ba7ca3a0d2e4318200dc2

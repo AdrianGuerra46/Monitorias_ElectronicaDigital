@@ -3,6 +3,7 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+<<<<<<< HEAD
 # Start of session at: Fri Aug 30 08:26:57 2024
 # Process ID: 16868
 # Current directory: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta
@@ -20,6 +21,25 @@
 # Swap memory       :7247 MB
 # Total Virtual     :14696 MB
 # Available Virtual :4692 MB
+=======
+# Start of session at: Sat Aug 31 18:41:48 2024
+# Process ID: 28040
+# Current directory: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25648 D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto17\Ruleta\Ruleta.xpr
+# Log file: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/vivado.log
+# Journal file: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta\vivado.jou
+# Running On        :AG-Predator
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+# CPU Frequency     :2592 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :17011 MB
+# Swap memory       :11811 MB
+# Total Virtual     :28822 MB
+# Available Virtual :6913 MB
+>>>>>>> d0fb5a6c878d15f6b48ba7ca3a0d2e4318200dc2
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.xpr}

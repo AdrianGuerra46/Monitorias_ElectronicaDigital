@@ -3,6 +3,7 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+<<<<<<< HEAD
 # Start of session at: Fri Aug 30 08:00:11 2024
 # Process ID: 12128
 # Current directory: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits
@@ -20,6 +21,25 @@
 # Swap memory       :7247 MB
 # Total Virtual     :14696 MB
 # Available Virtual :7380 MB
+=======
+# Start of session at: Mon Sep  2 18:17:26 2024
+# Process ID: 13884
+# Current directory: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17336 D:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto2\compleA2_4bits\compleA2_4bits.xpr
+# Log file: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/vivado.log
+# Journal file: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits\vivado.jou
+# Running On        :AG-Predator
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+# CPU Frequency     :2592 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :17011 MB
+# Swap memory       :11811 MB
+# Total Virtual     :28822 MB
+# Available Virtual :13500 MB
+>>>>>>> d0fb5a6c878d15f6b48ba7ca3a0d2e4318200dc2
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/compleA2_4bits.xpr}
@@ -92,6 +112,14 @@ Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
+<<<<<<< HEAD
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Software/Vivado/Vivado/2024.1/data/ip'.
 open_project: Time (s): cpu = 00:00:36 ; elapsed = 00:00:25 . Memory (MB): peak = 1535.836 ; gain = 429.758
 update_compile_order -fileset sources_1
+=======
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Software/Vivado/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:19 . Memory (MB): peak = 1529.641 ; gain = 413.590
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep  2 18:43:39 2024...
+>>>>>>> d0fb5a6c878d15f6b48ba7ca3a0d2e4318200dc2
