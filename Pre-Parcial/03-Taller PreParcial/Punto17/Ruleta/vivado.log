@@ -4,6 +4,7 @@
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Start of session at: Fri Aug 30 08:26:57 2024
 # Process ID: 16868
 # Current directory: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta
@@ -22,6 +23,8 @@
 # Total Virtual     :14696 MB
 # Available Virtual :4692 MB
 =======
+=======
+>>>>>>> a41221ba03c66e508ed7d03f0e8f31c9e51a8603
 # Start of session at: Sat Aug 31 18:41:48 2024
 # Process ID: 28040
 # Current directory: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta
@@ -39,7 +42,29 @@
 # Swap memory       :11811 MB
 # Total Virtual     :28822 MB
 # Available Virtual :6913 MB
+<<<<<<< HEAD
 >>>>>>> d0fb5a6c878d15f6b48ba7ca3a0d2e4318200dc2
+=======
+=======
+# Start of session at: Fri Aug 30 08:26:57 2024
+# Process ID: 16868
+# Current directory: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15432 C:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto17\Ruleta\Ruleta.xpr
+# Log file: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/vivado.log
+# Journal file: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta\vivado.jou
+# Running On        :aguerra
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 7 3700U with Radeon Vega Mobile Gfx  
+# CPU Frequency     :2296 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :7448 MB
+# Swap memory       :7247 MB
+# Total Virtual     :14696 MB
+# Available Virtual :4692 MB
+>>>>>>> 1e21788553026c79687e59a94f3693c78a4a2140
+>>>>>>> a41221ba03c66e508ed7d03f0e8f31c9e51a8603
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto17/Ruleta/Ruleta.xpr}
@@ -113,13 +138,24 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 <<<<<<< HEAD
+<<<<<<< HEAD
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Software/Vivado/Vivado/2024.1/data/ip'.
 open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1534.133 ; gain = 401.453
 update_compile_order -fileset sources_1
 =======
+=======
+>>>>>>> a41221ba03c66e508ed7d03f0e8f31c9e51a8603
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Software/Vivado/Vivado/2024.1/data/ip'.
 open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:38 . Memory (MB): peak = 1530.680 ; gain = 468.289
 update_compile_order -fileset sources_1
 exit
 INFO: [Common 17-206] Exiting Vivado at Sat Aug 31 19:08:39 2024...
+<<<<<<< HEAD
 >>>>>>> d0fb5a6c878d15f6b48ba7ca3a0d2e4318200dc2
+=======
+=======
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Software/Vivado/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1534.133 ; gain = 401.453
+update_compile_order -fileset sources_1
+>>>>>>> 1e21788553026c79687e59a94f3693c78a4a2140
+>>>>>>> a41221ba03c66e508ed7d03f0e8f31c9e51a8603

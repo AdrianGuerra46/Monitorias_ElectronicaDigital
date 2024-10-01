@@ -4,6 +4,7 @@
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Start of session at: Fri Aug 30 08:00:11 2024
 # Process ID: 12128
 # Current directory: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits
@@ -22,6 +23,8 @@
 # Total Virtual     :14696 MB
 # Available Virtual :7380 MB
 =======
+=======
+>>>>>>> a41221ba03c66e508ed7d03f0e8f31c9e51a8603
 # Start of session at: Mon Sep  2 18:17:26 2024
 # Process ID: 13884
 # Current directory: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits
@@ -39,7 +42,29 @@
 # Swap memory       :11811 MB
 # Total Virtual     :28822 MB
 # Available Virtual :13500 MB
+<<<<<<< HEAD
 >>>>>>> d0fb5a6c878d15f6b48ba7ca3a0d2e4318200dc2
+=======
+=======
+# Start of session at: Fri Aug 30 08:00:11 2024
+# Process ID: 12128
+# Current directory: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16284 C:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto2\compleA2_4bits\compleA2_4bits.xpr
+# Log file: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/vivado.log
+# Journal file: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits\vivado.jou
+# Running On        :aguerra
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 7 3700U with Radeon Vega Mobile Gfx  
+# CPU Frequency     :2296 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :7448 MB
+# Swap memory       :7247 MB
+# Total Virtual     :14696 MB
+# Available Virtual :7380 MB
+>>>>>>> 1e21788553026c79687e59a94f3693c78a4a2140
+>>>>>>> a41221ba03c66e508ed7d03f0e8f31c9e51a8603
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto2/compleA2_4bits/compleA2_4bits.xpr}

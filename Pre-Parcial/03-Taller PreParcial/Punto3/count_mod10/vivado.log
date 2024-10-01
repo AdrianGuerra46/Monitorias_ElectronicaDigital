@@ -4,6 +4,7 @@
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Start of session at: Fri Aug 30 08:17:40 2024
 # Process ID: 12296
 # Current directory: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10
@@ -22,6 +23,8 @@
 # Total Virtual     :14696 MB
 # Available Virtual :5777 MB
 =======
+=======
+>>>>>>> a41221ba03c66e508ed7d03f0e8f31c9e51a8603
 # Start of session at: Mon Sep  2 18:09:35 2024
 # Process ID: 21224
 # Current directory: D:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10
@@ -39,7 +42,29 @@
 # Swap memory       :11811 MB
 # Total Virtual     :28822 MB
 # Available Virtual :13948 MB
+<<<<<<< HEAD
 >>>>>>> d0fb5a6c878d15f6b48ba7ca3a0d2e4318200dc2
+=======
+=======
+# Start of session at: Fri Aug 30 08:17:40 2024
+# Process ID: 12296
+# Current directory: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10988 C:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.xpr
+# Log file: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/vivado.log
+# Journal file: C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10\vivado.jou
+# Running On        :aguerra
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 7 3700U with Radeon Vega Mobile Gfx  
+# CPU Frequency     :2296 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :7448 MB
+# Swap memory       :7247 MB
+# Total Virtual     :14696 MB
+# Available Virtual :5777 MB
+>>>>>>> 1e21788553026c79687e59a94f3693c78a4a2140
+>>>>>>> a41221ba03c66e508ed7d03f0e8f31c9e51a8603
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Github/Monitorias_ElectronicaDigital/Pre-Parcial/03-Taller PreParcial/Punto3/count_mod10/count_mod10.xpr}
@@ -113,6 +138,15 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Software/Vivado/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1532.562 ; gain = 409.383
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep  2 18:17:15 2024...
+=======
+>>>>>>> a41221ba03c66e508ed7d03f0e8f31c9e51a8603
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Software/Vivado/Vivado/2024.1/data/ip'.
 open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1505.676 ; gain = 411.773
 update_compile_order -fileset sources_1
@@ -123,6 +157,7 @@ WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-f
 WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Github\Monitorias_ElectronicaDigital\Pre-Parcial\03-Taller PreParcial\Punto3\count_mod10\count_mod10.srcs\sources_1\new\CountMod10.vhd:]
 exit
 INFO: [Common 17-206] Exiting Vivado at Fri Aug 30 10:25:42 2024...
+<<<<<<< HEAD
 =======
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Software/Vivado/Vivado/2024.1/data/ip'.
 open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1532.562 ; gain = 409.383
@@ -130,3 +165,6 @@ update_compile_order -fileset sources_1
 exit
 INFO: [Common 17-206] Exiting Vivado at Mon Sep  2 18:17:15 2024...
 >>>>>>> d0fb5a6c878d15f6b48ba7ca3a0d2e4318200dc2
+=======
+>>>>>>> 1e21788553026c79687e59a94f3693c78a4a2140
+>>>>>>> a41221ba03c66e508ed7d03f0e8f31c9e51a8603
