@@ -1,16 +1,15 @@
-//Diseñar un código que permita encender y apagar un led conectado al 
-//GPIO23 del ESP32
+//Diseñar una secuancia de luces usando 4 led's y un ESP32
 
 #include <Arduino.h>
 
 
 void setup() {
-  // put your setup code here, to run once:
+  // En esta sección (setup) se ubica el código que solo se correrá una vez
   pinMode(2,OUTPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  // En esta sección (loop) se ubica el código que se ejecutará ciclicamente 
   digitalWrite(2,HIGH);
   delay(200);
   digitalWrite(2,LOW);
